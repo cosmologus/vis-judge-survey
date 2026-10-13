@@ -1,0 +1,725 @@
+rid,n,contrast_group,factor_varied,model,from,to,direction,significance,loc
+R0016,1,A1; A6,vis-set,gpt-4-1106-vision-preview,A1.M1,A6.M1,=,not tested,§8 Replication study ('almost identical')
+R0016,2,A2; A7,vis-set,gpt-4-1106-vision-preview,A2.M1,A7.M1,↑,not tested,§8 Replication study ('except ... able to correctly detect the inverted axis'); qualitative
+R0016,3,A3; A8,vis-set,gpt-4-1106-vision-preview,A3.M1,A8.M1,=,not tested,§8 Replication study
+R0016,4,A4; A5; A9; A10,cue,gpt-4-1106-vision-preview,A4.M1,A5.M1,=,not tested,"§7.2; §7.3 (both questions flag control and flawed titles at verdict level; the difference is in what is named, see A11/A12)"
+R0016,5,A4; A5; A9; A10,vis-set,gpt-4-1106-vision-preview,A4.M1,A9.M1,=,not tested,§8 Replication study ('comparable to the main task')
+R0016,6,A4; A5; A9; A10,vis-set,gpt-4-1106-vision-preview,A5.M1,A10.M1,=,not tested,§8 Replication study ('comparable to the main task')
+R0016,7,A4; A5; A9; A10,cue,gpt-4-1106-vision-preview,A9.M1,A10.M1,unknown,not tested,§8 Replication study ('relatively sensitive to question wording'; direction not reported)
+R0016,8,A11; A12,cue,gpt-4-1106-vision-preview,A11.M1,A12.M1,↑,not tested,§7.2 Selective/Miscued; §7.3
+R0025,1,A1; A2,vis-set,GPT-4V,A1.M1,A2.M1,↓,not tested,"§3.2, PDF p. 4"
+R0039,1,A1; A2; A3; A4,cue,GPT-4V,A4.M1,A2.M1,↑,not tested,"Table 1, Sec. 4.3"
+R0039,2,A1; A2; A3; A4,cue,GPT-4V,A4.M1,A3.M1,↑,not tested,"Table 1, Sec. 4.3"
+R0039,3,A1; A2; A3; A4,cue,GPT-4V,A4.M1,A1.M1,↑,not tested,"Table 1, Sec. 4.3"
+R0039,4,A1; A2; A3; A4,cue,GPT-4V,A2.M1,A1.M1,↑,not tested,"Table 1, Sec. 4.3"
+R0039,5,A1; A2; A3; A4,cue,GPT-4V,A3.M1,A1.M1,↑,not tested,"Table 1, Sec. 4.3"
+R0039,6,A5; A6,other:aux-input,GPT-4V,A6.M1,A5.M1,↑,not tested,"Sec. 4.3, Result analysis"
+R0040,1,C1,other:verdict-scale,gpt-4-1106-vision-preview,A1.M1,A3.M1,↓,not tested,"Tab. 1, p. 4"
+R0040,2,C1,other:verdict-scale,Copilot,A1.M2,A3.M2,↑,not tested,"Tab. 1, p. 4"
+R0040,3,C1,other:verdict-scale,gemini-pro-vision,A1.M3,A3.M3,↓,not tested,"Tab. 1, p. 4"
+R0040,4,C1,other:verdict-scale,llava-v1.6-mistral-7b-hf,A1.M4,A3.M4,↓,not tested,"Tab. 1, p. 4"
+R0040,5,C2,other:verdict-scale,gpt-4-1106-vision-preview,A2.M1,A4.M1,=,not tested,"Tab. 1, p. 4; Fig. 4, p. 9"
+R0040,6,C2,other:verdict-scale,Copilot,A2.M2,A4.M2,↓,not tested,"Tab. 1, p. 4; Fig. 4, p. 9"
+R0040,7,C2,other:verdict-scale,gemini-pro-vision,A2.M3,A4.M3,↓,not tested,"Tab. 1, p. 4; Fig. 4, p. 9"
+R0040,8,C2,other:verdict-scale,llava-v1.6-mistral-7b-hf,A2.M4,A4.M4,↓,not tested,"Tab. 1, p. 4; Fig. 4, p. 9"
+R0040,9,C3,other:cue+cot+definitions,gpt-4-1106-vision-preview,A1.M1,A5.M1,=,not tested,"Tab. 1, p. 4"
+R0040,10,C3,other:cue+cot+definitions,Copilot,A1.M2,A5.M2,↑,not tested,"Tab. 1, p. 4"
+R0040,11,C3,other:cue+cot+definitions,gemini-pro-vision,A1.M3,A5.M3,↓,not tested,"Tab. 1, p. 4"
+R0040,12,C3,other:cue+cot+definitions,llava-v1.6-mistral-7b-hf,A1.M4,A5.M4,↓,not tested,"Tab. 1, p. 4"
+R0040,13,C4,other:cue+cot+definitions,gpt-4-1106-vision-preview,A2.M1,A6.M1,↑,not tested,"Tab. 1, p. 4; Fig. 4, p. 9"
+R0040,14,C4,other:cue+cot+definitions,Copilot,A2.M2,A6.M2,=,not tested,"Tab. 1, p. 4; Fig. 4, p. 9"
+R0040,15,C4,other:cue+cot+definitions,gemini-pro-vision,A2.M3,A6.M3,↑,not tested,"Tab. 1, p. 4; Fig. 4, p. 9"
+R0040,16,C4,other:cue+cot+definitions,llava-v1.6-mistral-7b-hf,A2.M4,A6.M4,↑,not tested,"Tab. 1, p. 4; Fig. 4, p. 9"
+R0040,17,C5,cot,gpt-4-1106-vision-preview,A7.M1,A9.M1,↓,not tested,"Tab. 2, p. 6"
+R0040,18,C5,cot,Copilot,A7.M2,A9.M2,↓,not tested,"Tab. 2, p. 6"
+R0040,19,C5,cot,gemini-pro-vision,A7.M3,A9.M3,↓,not tested,"Tab. 2, p. 6"
+R0040,20,C5,cot,llava-v1.6-mistral-7b-hf,A7.M4,A9.M4,↑,not tested,"Tab. 2, p. 6"
+R0040,21,C6,cot,gpt-4-1106-vision-preview,A8.M1,A10.M1,↓,not tested,"Tab. 2, p. 6; Fig. 4, p. 9"
+R0040,22,C6,cot,Copilot,A8.M2,A10.M2,↓,not tested,"Tab. 2, p. 6; Fig. 4, p. 9"
+R0040,23,C6,cot,gemini-pro-vision,A8.M3,A10.M3,↓,not tested,"Tab. 2, p. 6; Fig. 4, p. 9"
+R0040,24,C6,cot,llava-v1.6-mistral-7b-hf,A8.M4,A10.M4,=,not tested,"Tab. 2, p. 6; Fig. 4, p. 9"
+R0040,25,C7,pipeline,gpt-4-1106-vision-preview,A9.M1,A11.M1,↓,not tested,"Tab. 2, p. 6"
+R0040,26,C7,pipeline,Copilot,A9.M2,A11.M2,↑,not tested,"Tab. 2, p. 6"
+R0040,27,C7,pipeline,gemini-pro-vision,A9.M3,A11.M3,↑,not tested,"Tab. 2, p. 6"
+R0040,28,C7,pipeline,llava-v1.6-mistral-7b-hf,A9.M4,A11.M4,↓,not tested,"Tab. 2, p. 6"
+R0040,29,C8,pipeline,gpt-4-1106-vision-preview,A10.M1,A12.M1,↑,not tested,"Tab. 2, p. 6; Fig. 4, p. 9"
+R0040,30,C8,pipeline,Copilot,A10.M2,A12.M2,↑,not tested,"Tab. 2, p. 6; Fig. 4, p. 9"
+R0040,31,C8,pipeline,gemini-pro-vision,A10.M3,A12.M3,↑,not tested,"Tab. 2, p. 6; Fig. 4, p. 9"
+R0040,32,C8,pipeline,llava-v1.6-mistral-7b-hf,A10.M4,A12.M4,↓,not tested,"Tab. 2, p. 6; Fig. 4, p. 9"
+R0040,33,C9,other:cot+pipeline+output-format,gpt-4-1106-vision-preview,A13.M1,A15.M1,↑,not tested,"Tab. 3, p. 9"
+R0040,34,C9,other:cot+pipeline+output-format,Copilot,A13.M2,A15.M2,↑,not tested,"Tab. 3, p. 9"
+R0040,35,C9,other:cot+pipeline+output-format,gemini-pro-vision,A13.M3,A15.M3,↓,not tested,"Tab. 3, p. 9"
+R0040,36,C9,other:cot+pipeline+output-format,llava-v1.6-mistral-7b-hf,A13.M4,A15.M4,↑,not tested,"Tab. 3, p. 9"
+R0040,37,C10,other:cot+pipeline+output-format,gpt-4-1106-vision-preview,A14.M1,A16.M1,↓,not tested,"Tab. 3, p. 9; Fig. 4, p. 9"
+R0040,38,C10,other:cot+pipeline+output-format,Copilot,A14.M2,A16.M2,↑,not tested,"Tab. 3, p. 9; Fig. 4, p. 9"
+R0040,39,C10,other:cot+pipeline+output-format,gemini-pro-vision,A14.M3,A16.M3,↓,not tested,"Tab. 3, p. 9; Fig. 4, p. 9"
+R0040,40,C10,other:cot+pipeline+output-format,llava-v1.6-mistral-7b-hf,A14.M4,A16.M4,↑,not tested,"Tab. 3, p. 9; Fig. 4, p. 9"
+R0040,41,C11,other:dynamic-checklist-filtering,gpt-4-1106-vision-preview,A13.M1,A17.M1,↓,not tested,"Tab. 3, p. 9"
+R0040,42,C11,other:dynamic-checklist-filtering,Copilot,A13.M2,A17.M2,↓,not tested,"Tab. 3, p. 9"
+R0040,43,C11,other:dynamic-checklist-filtering,gemini-pro-vision,A13.M3,A17.M3,↑,not tested,"Tab. 3, p. 9"
+R0040,44,C11,other:dynamic-checklist-filtering,llava-v1.6-mistral-7b-hf,A13.M4,A17.M4,↑,not tested,"Tab. 3, p. 9"
+R0040,45,C12,other:dynamic-checklist-filtering,gpt-4-1106-vision-preview,A14.M1,A18.M1,↓,not tested,"Tab. 3, p. 9; Fig. 4, p. 9"
+R0040,46,C12,other:dynamic-checklist-filtering,Copilot,A14.M2,A18.M2,↑,not tested,"Tab. 3, p. 9; Fig. 4, p. 9"
+R0040,47,C12,other:dynamic-checklist-filtering,gemini-pro-vision,A14.M3,A18.M3,↓,not tested,"Tab. 3, p. 9; Fig. 4, p. 9"
+R0040,48,C12,other:dynamic-checklist-filtering,llava-v1.6-mistral-7b-hf,A14.M4,A18.M4,↑,not tested,"Tab. 3, p. 9; Fig. 4, p. 9"
+R0043,1,A1; A2; A3; A4,few-shot,gpt-4o-mini-2024-07-18,A1.M1,A2.M1,↑,not tested,Table 1 Reasoning Subtotal row; Fig. 2-B
+R0043,2,A1; A2; A3; A4,few-shot,gpt-4o-2024-05-13,A1.M2,A2.M2,↑,not tested,Table 1 Reasoning Subtotal row; Fig. 2-B
+R0043,3,A1; A2; A3; A4,few-shot,gpt-4-1106-vision-preview,A1.M3,A2.M3,↑,not tested,Table 1 Reasoning Subtotal row; Fig. 2-B
+R0043,4,A1; A2; A3; A4,few-shot,gpt-4o-mini-2024-07-18,A3.M1,A4.M1,↑,not tested,Table 1 Reasoning Subtotal row; Fig. 2-B
+R0043,5,A1; A2; A3; A4,few-shot,gpt-4o-2024-05-13,A3.M2,A4.M2,↑,not tested,Table 1 Reasoning Subtotal row; Fig. 2-B
+R0043,6,A1; A2; A3; A4,few-shot,gpt-4-1106-vision-preview,A3.M3,A4.M3,↓,not tested,Table 1 Reasoning Subtotal row; Fig. 2-B
+R0043,7,A1; A2; A3; A4,definitions,gpt-4o-mini-2024-07-18,A1.M1,A3.M1,↑,not tested,Table 1 Reasoning Subtotal row; Fig. 2-B
+R0043,8,A1; A2; A3; A4,definitions,gpt-4o-2024-05-13,A1.M2,A3.M2,↑,not tested,Table 1 Reasoning Subtotal row; Fig. 2-B
+R0043,9,A1; A2; A3; A4,definitions,gpt-4-1106-vision-preview,A1.M3,A3.M3,↑,not tested,Table 1 Reasoning Subtotal row; Fig. 2-B
+R0043,10,A1; A2; A3; A4,definitions,gpt-4o-mini-2024-07-18,A2.M1,A4.M1,↓,not tested,Table 1 Reasoning Subtotal row; Fig. 2-B
+R0043,11,A1; A2; A3; A4,definitions,gpt-4o-2024-05-13,A2.M2,A4.M2,↑,not tested,Table 1 Reasoning Subtotal row; Fig. 2-B
+R0043,12,A1; A2; A3; A4,definitions,gpt-4-1106-vision-preview,A2.M3,A4.M3,↓,not tested,Table 1 Reasoning Subtotal row; Fig. 2-B
+R0043,13,A5; A6; A7; A8,few-shot,gpt-4o-mini-2024-07-18,A5.M1,A6.M1,↓,not tested,Table 1 Design Subtotal row; Fig. 2-C
+R0043,14,A5; A6; A7; A8,few-shot,gpt-4o-2024-05-13,A5.M2,A6.M2,↑,not tested,Table 1 Design Subtotal row; Fig. 2-C
+R0043,15,A5; A6; A7; A8,few-shot,gpt-4-1106-vision-preview,A5.M3,A6.M3,↑,not tested,Table 1 Design Subtotal row; Fig. 2-C
+R0043,16,A5; A6; A7; A8,few-shot,gpt-4o-mini-2024-07-18,A7.M1,A8.M1,↓,not tested,Table 1 Design Subtotal row; Fig. 2-C
+R0043,17,A5; A6; A7; A8,few-shot,gpt-4o-2024-05-13,A7.M2,A8.M2,↓,not tested,Table 1 Design Subtotal row; Fig. 2-C
+R0043,18,A5; A6; A7; A8,few-shot,gpt-4-1106-vision-preview,A7.M3,A8.M3,↓,not tested,Table 1 Design Subtotal row; Fig. 2-C
+R0043,19,A5; A6; A7; A8,definitions,gpt-4o-mini-2024-07-18,A5.M1,A7.M1,↑,not tested,Table 1 Design Subtotal row; Fig. 2-C
+R0043,20,A5; A6; A7; A8,definitions,gpt-4o-2024-05-13,A5.M2,A7.M2,↑,not tested,Table 1 Design Subtotal row; Fig. 2-C
+R0043,21,A5; A6; A7; A8,definitions,gpt-4-1106-vision-preview,A5.M3,A7.M3,↑,not tested,Table 1 Design Subtotal row; Fig. 2-C
+R0043,22,A5; A6; A7; A8,definitions,gpt-4o-mini-2024-07-18,A6.M1,A8.M1,↓,not tested,Table 1 Design Subtotal row; Fig. 2-C
+R0043,23,A5; A6; A7; A8,definitions,gpt-4o-2024-05-13,A6.M2,A8.M2,↓,not tested,Table 1 Design Subtotal row; Fig. 2-C
+R0043,24,A5; A6; A7; A8,definitions,gpt-4-1106-vision-preview,A6.M3,A8.M3,↓,not tested,Table 1 Design Subtotal row; Fig. 2-C
+R0044,1,A1; A2; A3,other:elicitation-task (rank vs recommend),GPT-4-0125-preview,A1.M1,A2.M1,↑,not tested,§5.4.3
+R0075,1,A1; A2,cot,GPT-4o,A1.M1,A2.M1,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,2,A1; A3,pipeline,GPT-4o,A1.M1,A3.M1,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,3,A2; A3,pipeline,GPT-4o,A2.M1,A3.M1,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,4,A1; A2,cot,GPT-4.1,A1.M2,A2.M2,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,5,A1; A3,pipeline,GPT-4.1,A1.M2,A3.M2,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,6,A2; A3,pipeline,GPT-4.1,A2.M2,A3.M2,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,7,A1; A2,cot,GPT-o1,A1.M3,A2.M3,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,8,A1; A3,pipeline,GPT-o1,A1.M3,A3.M3,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,9,A2; A3,pipeline,GPT-o1,A2.M3,A3.M3,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,10,A1; A2,cot,GPT-o3,A1.M4,A2.M4,↓,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,11,A1; A3,pipeline,GPT-o3,A1.M4,A3.M4,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,12,A2; A3,pipeline,GPT-o3,A2.M4,A3.M4,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,13,A1; A2,cot,GPT-o4-mini,A1.M5,A2.M5,↓,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,14,A1; A3,pipeline,GPT-o4-mini,A1.M5,A3.M5,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,15,A2; A3,pipeline,GPT-o4-mini,A2.M5,A3.M5,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,16,A1; A2,cot,Claude-3.5-Sonnet,A1.M6,A2.M6,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,17,A1; A3,pipeline,Claude-3.5-Sonnet,A1.M6,A3.M6,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,18,A2; A3,pipeline,Claude-3.5-Sonnet,A2.M6,A3.M6,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,19,A1; A2,cot,Claude-3.7-Sonnet,A1.M7,A2.M7,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,20,A1; A3,pipeline,Claude-3.7-Sonnet,A1.M7,A3.M7,↓,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,21,A2; A3,pipeline,Claude-3.7-Sonnet,A2.M7,A3.M7,↓,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,22,A1; A2,cot,Gemini-2.0-Flash,A1.M8,A2.M8,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,23,A1; A3,pipeline,Gemini-2.0-Flash,A1.M8,A3.M8,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,24,A2; A3,pipeline,Gemini-2.0-Flash,A2.M8,A3.M8,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,25,A1; A2,cot,Gemini-2.5-Flash,A1.M9,A2.M9,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,26,A1; A3,pipeline,Gemini-2.5-Flash,A1.M9,A3.M9,↓,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,27,A2; A3,pipeline,Gemini-2.5-Flash,A2.M9,A3.M9,↓,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,28,A1; A2,cot,DeepSeek-VL2-Tiny,A1.M10,A2.M10,↓,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,29,A1; A3,pipeline,DeepSeek-VL2-Tiny,A1.M10,A3.M10,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,30,A2; A3,pipeline,DeepSeek-VL2-Tiny,A2.M10,A3.M10,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,31,A1; A2,cot,DeepSeek-VL2-Small,A1.M11,A2.M11,↓,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,32,A1; A3,pipeline,DeepSeek-VL2-Small,A1.M11,A3.M11,↓,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,33,A2; A3,pipeline,DeepSeek-VL2-Small,A2.M11,A3.M11,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,34,A1; A2,cot,DeepSeek-VL2,A1.M12,A2.M12,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,35,A1; A3,pipeline,DeepSeek-VL2,A1.M12,A3.M12,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,36,A2; A3,pipeline,DeepSeek-VL2,A2.M12,A3.M12,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,37,A1; A2,cot,Qwen2.5-VL-3B,A1.M13,A2.M13,↓,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,38,A1; A3,pipeline,Qwen2.5-VL-3B,A1.M13,A3.M13,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,39,A2; A3,pipeline,Qwen2.5-VL-3B,A2.M13,A3.M13,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,40,A1; A2,cot,Qwen2.5-VL-7B,A1.M14,A2.M14,=,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,41,A1; A3,pipeline,Qwen2.5-VL-7B,A1.M14,A3.M14,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,42,A2; A3,pipeline,Qwen2.5-VL-7B,A2.M14,A3.M14,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,43,A1; A2,cot,Qwen2.5-VL-72B,A1.M15,A2.M15,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,44,A1; A3,pipeline,Qwen2.5-VL-72B,A1.M15,A3.M15,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,45,A2; A3,pipeline,Qwen2.5-VL-72B,A2.M15,A3.M15,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,46,A1; A2,cot,InternVL2.5-4B-MPO,A1.M16,A2.M16,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,47,A1; A3,pipeline,InternVL2.5-4B-MPO,A1.M16,A3.M16,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,48,A2; A3,pipeline,InternVL2.5-4B-MPO,A2.M16,A3.M16,↓,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,49,A1; A2,cot,InternVL2.5-8B-MPO,A1.M17,A2.M17,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,50,A1; A3,pipeline,InternVL2.5-8B-MPO,A1.M17,A3.M17,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,51,A2; A3,pipeline,InternVL2.5-8B-MPO,A2.M17,A3.M17,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,52,A1; A2,cot,InternVL2.5-26B-MPO,A1.M18,A2.M18,↓,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,53,A1; A3,pipeline,InternVL2.5-26B-MPO,A1.M18,A3.M18,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,54,A2; A3,pipeline,InternVL2.5-26B-MPO,A2.M18,A3.M18,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,55,A1; A2,cot,InternVL2.5-78B-MPO,A1.M19,A2.M19,↓,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,56,A1; A3,pipeline,InternVL2.5-78B-MPO,A1.M19,A3.M19,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,57,A2; A3,pipeline,InternVL2.5-78B-MPO,A2.M19,A3.M19,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,58,A1; A2,cot,InternVL3-8B-MPO,A1.M20,A2.M20,↓,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,59,A1; A3,pipeline,InternVL3-8B-MPO,A1.M20,A3.M20,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,60,A2; A3,pipeline,InternVL3-8B-MPO,A2.M20,A3.M20,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,61,A1; A2,cot,InternVL3-38B-MPO,A1.M21,A2.M21,↓,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,62,A1; A3,pipeline,InternVL3-38B-MPO,A1.M21,A3.M21,↓,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,63,A2; A3,pipeline,InternVL3-38B-MPO,A2.M21,A3.M21,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,64,A1; A2,cot,InternVL3-78B-MPO,A1.M22,A2.M22,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,65,A1; A3,pipeline,InternVL3-78B-MPO,A1.M22,A3.M22,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0075,66,A2; A3,pipeline,InternVL3-78B-MPO,A2.M22,A3.M22,↑,not tested,"Table 1; Sec 3.2 obs (4), Sec 3.3"
+R0087,1,A1; A3,cue,qwen2vl-7B,A1.M10,A3.M1,↑,"n.s. (McNemar, p>0.05)",Table 7; Fig. 6
+R0087,2,A1; A3,cue,ovis1.6-9B,A1.M9,A3.M2,↑,"n.s. (McNemar, p>0.05)",Table 7; Fig. 6
+R0087,3,A1; A3,cue,internvl2.5-8B,A1.M12,A3.M3,↑,"n.s. (McNemar, p>0.05)",Table 7; Fig. 6
+R0087,4,A1; A4,pipeline,qwen2vl-7B,A1.M10,A4.M1,↓,"n.s. (McNemar, p>0.05)",Table 7; Fig. 6
+R0087,5,A1; A4,pipeline,ovis1.6-9B,A1.M9,A4.M2,↑,"n.s. (McNemar, p>0.05)",Table 7; Fig. 6
+R0087,6,A1; A4,pipeline,internvl2.5-8B,A1.M12,A4.M3,=,"n.s. (McNemar, p>0.05)",Table 7; Fig. 6
+R0087,7,A1; A5,pipeline,qwen2vl-7B,A1.M10,A5.M1,↑,"n.s. (McNemar, p>0.05)",Table 7; Fig. 6
+R0087,8,A1; A5,pipeline,ovis1.6-9B,A1.M9,A5.M2,↓,"n.s. (McNemar, p>0.05)",Table 7; Fig. 6
+R0087,9,A1; A5,pipeline,internvl2.5-8B,A1.M12,A5.M3,↑,"n.s. (McNemar, p>0.05)",Table 7; Fig. 6
+R0087,10,A1; A6,pipeline,qwen2vl-7B,A1.M10,A6.M1,↑,"n.s. (McNemar, p>0.05)",Table 7; Fig. 6
+R0087,11,A1; A6,pipeline,ovis1.6-9B,A1.M9,A6.M2,↓,"n.s. (McNemar, p>0.05)",Table 7; Fig. 6
+R0087,12,A1; A6,pipeline,internvl2.5-8B,A1.M12,A6.M3,↑,"n.s. (McNemar, p>0.05)",Table 7; Fig. 6
+R0087,13,A1; A7,pipeline,qwen2vl-7B,A1.M10,A7.M1,↑,"p<=0.05 (McNemar, two-sided)",Table 7; Fig. 6
+R0087,14,A1; A7,pipeline,ovis1.6-9B,A1.M9,A7.M2,↑,"p<=0.05 (McNemar, two-sided)",Table 7; Fig. 6
+R0087,15,A1; A7,pipeline,internvl2.5-8B,A1.M12,A7.M3,↑,"p<=0.05 (McNemar, two-sided)",Table 7; Fig. 6
+R0087,16,A1; A8,pipeline,qwen2vl-7B,A1.M10,A8.M1,↑,"p<=0.05 (McNemar, two-sided)",Table 7; Fig. 6
+R0087,17,A1; A8,pipeline,ovis1.6-9B,A1.M9,A8.M2,↑,"p<=0.05 (McNemar, two-sided)",Table 7; Fig. 6
+R0087,18,A1; A8,pipeline,internvl2.5-8B,A1.M12,A8.M3,↑,"n.s. (McNemar, p>0.05)",Table 7; Fig. 6
+R0087,19,A1; A7,pipeline,ChartGemma-3B,A1.M8,A7.M4,↑,not tested,Table 8 (App. E)
+R0087,20,A1; A7,pipeline,GPT5-mini,A1.M21,A7.M5,↓,not tested,Table 8 (App. E)
+R0087,21,A1; A8,pipeline,ChartGemma-3B,A1.M8,A8.M4,↑,n.s. (text: 'does not yield significant improvements'),Table 8 (App. E)
+R0087,22,A1; A8,pipeline,GPT5-mini,A1.M21,A8.M5,↑,not tested,Table 8 (App. E)
+R0087,23,A1; A9,cot,qwen2vl-7B,A1.M10,A9.M1,↑,not tested,Fig. 12 (App. E)
+R0087,24,A1; A9,cot,ovis1.6-9B,A1.M9,A9.M2,↑,not tested,Fig. 12 (App. E)
+R0087,25,A1; A9,cot,internvl2.5-8B,A1.M12,A9.M3,↑,not tested,Fig. 12 (App. E)
+R0087,26,A7; A10,cot,qwen2vl-7B,A7.M1,A10.M1,↓,n.s. (text: 'no significant impact on misleading visualizations for table-based QA'; test unspecified),Fig. 12 (App. E)
+R0087,27,A7; A10,cot,ovis1.6-9B,A7.M2,A10.M2,↑,n.s. (text: 'no significant impact on misleading visualizations for table-based QA'; test unspecified),Fig. 12 (App. E)
+R0087,28,A7; A10,cot,internvl2.5-8B,A7.M3,A10.M3,↑,n.s. (text: 'no significant impact on misleading visualizations for table-based QA'; test unspecified),Fig. 12 (App. E)
+R0087,29,A8; A11,cot,qwen2vl-7B,A8.M1,A11.M1,↑,not tested,Fig. 12 (App. E)
+R0087,30,A8; A11,cot,ovis1.6-9B,A8.M2,A11.M2,↓,not tested,Fig. 12 (App. E)
+R0087,31,A8; A11,cot,internvl2.5-8B,A8.M3,A11.M3,↑,not tested,Fig. 12 (App. E)
+R0093,1,A1; A3,pipeline,Phi-3.5-Vision (Multi-Binary reward model),A1.M1,A3.M1,↑,not tested,Table 4 (p.8); §5.3.2
+R0097,1,A1; A2; A3; A4,other:prompt-setting,gpt-4o-2024-08-06,A1.M1,A2.M1,↓,not tested,Table 1; Sec. 5
+R0097,2,A1; A2; A3; A4,other:prompt-setting,gemini-2.5-pro-exp-03-25,A1.M2,A2.M2,=,not tested,Table 1; Sec. 5
+R0097,3,A1; A2; A3; A4,other:prompt-setting,Qwen2.5 (vl-72b-instruct),A1.M3,A2.M3,↓,not tested,Table 1; Sec. 5
+R0097,4,A1; A2; A3; A4,other:prompt-setting,gpt-4o-2024-08-06,A2.M1,A3.M1,↓,not tested,Table 1; Sec. 5
+R0097,5,A1; A2; A3; A4,other:prompt-setting,gemini-2.5-pro-exp-03-25,A2.M2,A3.M2,↓,not tested,Table 1; Sec. 5
+R0097,6,A1; A2; A3; A4,other:prompt-setting,Qwen2.5 (vl-72b-instruct),A2.M3,A3.M3,↓,not tested,Table 1; Sec. 5
+R0097,7,A1; A2; A3; A4,other:prompt-setting,gpt-4o-2024-08-06,A1.M1,A3.M1,↓,not tested,Table 1; Sec. 5
+R0097,8,A1; A2; A3; A4,other:prompt-setting,gemini-2.5-pro-exp-03-25,A1.M2,A3.M2,↓,not tested,Table 1; Sec. 5
+R0097,9,A1; A2; A3; A4,other:prompt-setting,Qwen2.5 (vl-72b-instruct),A1.M3,A3.M3,↓,not tested,Table 1; Sec. 5
+R0097,10,A1; A2; A3; A4,other:prompt-setting,gpt-4o-2024-08-06,A3.M1,A4.M1,↑,not tested,Table 1; Sec. 5
+R0097,11,A1; A2; A3; A4,other:prompt-setting,gemini-2.5-pro-exp-03-25,A3.M2,A4.M2,↑,not tested,Table 1; Sec. 5
+R0097,12,A1; A2; A3; A4,other:prompt-setting,Qwen2.5 (vl-72b-instruct),A3.M3,A4.M3,↑,not tested,Table 1; Sec. 5
+R0097,13,A1; A2; A3; A4,other:prompt-setting,gpt-4o-2024-08-06,A1.M1,A4.M1,↑,not tested,Table 1; Sec. 5
+R0097,14,A1; A2; A3; A4,other:prompt-setting,gemini-2.5-pro-exp-03-25,A1.M2,A4.M2,↑,not tested,Table 1; Sec. 5
+R0097,15,A1; A2; A3; A4,other:prompt-setting,Qwen2.5 (vl-72b-instruct),A1.M3,A4.M3,=,not tested,Table 1; Sec. 5
+R0097,16,A1; A6,other:output-order,Qwen2.5 (vl-72b-instruct),A1.M3,A6.M1,↓,not tested,"Suppl. Order of Responses, Fig. 7"
+R0097,17,A2; A7,other:output-order,Qwen2.5 (vl-72b-instruct),A2.M3,A7.M1,↓,not tested,"Suppl. Order of Responses, Fig. 7"
+R0097,18,A3; A8,other:output-order,Qwen2.5 (vl-72b-instruct),A3.M3,A8.M1,↑,not tested,"Suppl. Order of Responses, Fig. 7"
+R0097,19,A4; A9,other:output-order,Qwen2.5 (vl-72b-instruct),A4.M3,A9.M1,↓,not tested,"Suppl. Order of Responses, Fig. 7"
+R0097,20,A4; A10,few-shot,unspecified (aggregated),A4,A10.Magg,↓,not tested,Suppl. Unsuccesful Attempts
+R0105,1,A1.M1; A1.M2; A1.M3,model,GPT-4o vs Claude 3.5 Sonnet,A1.M1,A1.M2,↑,not tested,Table 2 (PDF p.3)
+R0105,2,A1.M1; A1.M2; A1.M3,model,GPT-4o vs Llama-3.2-11B-Vision-Instruct,A1.M1,A1.M3,↓,not tested,Table 2 (PDF p.3)
+R0105,3,A1.M1; A1.M2; A1.M3,model,Claude 3.5 Sonnet vs Llama-3.2-11B-Vision-Instruct,A1.M2,A1.M3,↓,not tested,Table 2 (PDF p.3)
+R0105,4,A2.M1; A2.M2; A2.M3,model,GPT-4o vs Claude 3.5 Sonnet,A2.M1,A2.M2,↓,not tested (0.70 vs 0.69; only differences vs Llama-3.2 reported as significant),Table 3 (PDF p.4); Sec 4.2
+R0105,5,A2.M1; A2.M2; A2.M3,model,GPT-4o vs Llama-3.2-11B-Vision-Instruct,A2.M1,A2.M3,↓,p < 0.001 (one-way ANOVA across models; post hoc not reported),Table 3 (PDF p.4); Sec 4.2
+R0105,6,A2.M1; A2.M2; A2.M3,model,Claude 3.5 Sonnet vs Llama-3.2-11B-Vision-Instruct,A2.M2,A2.M3,↓,p < 0.001 (one-way ANOVA across models; post hoc not reported),Table 3 (PDF p.4); Sec 4.2
+R0108,1,A1; A2,other:knowledge-injection,GPT-4V,A1.M1,A2.M1,↑,not tested,Sec. 3.2
+R0108,2,A1; A11,other:grayscale-image,GPT-4V,A1.M1,A11.M1,=,not tested,Sec. 5.1
+R0108,3,A1; A17,pipeline,GPT-4V,A1.M1,A17.M1,↑,called 'significant improvement'; no test reported,Sec. 5.2
+R0108,4,A5; A12,modality,GPT-4V,A5.M1,A12.M1,↓,not tested,Sec. 5.1; Fig. 4A-B
+R0108,5,A12; A13,other:prompt-generality,GPT-4V,A12.M1,A13.M1,↑,not tested,Sec. 5.1; Fig. 4B-C
+R0108,6,A6; A14,other:prompt-dataset-emphasis,GPT-4V,A6.M1,A14.M1,=,not tested,App. 2.4
+R0108,7,A6; A15,other:prompt-dataset-emphasis,GPT-4V,A6.M1,A15.M1,↓,not tested,Tab. 1; App. 2.4
+R0108,8,A15; A16,modality,GPT-4V,A15.M1,A16.M1,=,not tested,App. 2.4
+R0108,9,A1; A19,persona,GPT-4V,A1.M1,A19.M1,=,not tested,Sec. 3.2
+R0114,1,A1.M1; A1.M2,model,Qwen-2.5-VL-7B base (A1.M2) vs its fine-tune VIS-Shepherd (A1.M1),A1.M2,A1.M1,↑,not tested,"Fig. 4(a), §6.1, p. 8; Fig. 6"
+R0119,1,A1; A2; A3; A4; A5; A6,pipeline,Qwen2.5VL (7B),A1.M1,A2.M1,↓,not tested,Table 4
+R0119,2,A1; A2; A3; A4; A5; A6,cot,Qwen2.5VL (7B),A1.M1,A3.M1,=,not tested,Table 4
+R0119,3,A1; A2; A3; A4; A5; A6,cot,Qwen2.5VL (7B),A1.M1,A4.M1,↓,not tested,Table 4
+R0119,4,A1; A2; A3; A4; A5; A6,cot,Qwen2.5VL (7B),A1.M1,A5.M1,↓,not tested,Table 4
+R0119,5,A1; A2; A3; A4; A5; A6,few-shot,Qwen2.5VL (7B),A1.M1,A6.M1,↑,not tested,Sec 3.2
+R0119,6,A1,model,Qwen2.5VL (7B) -> Qwen2.5VL-72B,A1.M1,A1.M2,↓ or = (text: no improvement),not tested,Sec 3.2
+R0119,7,A7; A8; A9; A10; A11; A12,pipeline,Qwen2.5VL (7B),A7.M1,A8.M1,↓,not tested,Table 5
+R0119,8,A7; A8; A9; A10; A11; A12,cot,Qwen2.5VL (7B),A7.M1,A9.M1,↑,not tested,Table 5
+R0119,9,A7; A8; A9; A10; A11; A12,cot,Qwen2.5VL (7B),A7.M1,A10.M1,↑,not tested,Table 5
+R0119,10,A7; A8; A9; A10; A11; A12,cot,Qwen2.5VL (7B),A7.M1,A11.M1,↑,not tested,Table 5
+R0119,11,A7; A8; A9; A10; A11; A12,few-shot,Qwen2.5VL (7B),A7.M1,A12.M1,↑,not tested,Sec 3.3
+R0119,12,A7,model,Qwen2.5VL (7B) -> Qwen2.5VL-72B,A7.M1,A7.M2,↑,not tested,Sec 3.3
+R0119,13,A13; A14; A15; A16; A17; A18,pipeline,Qwen2.5VL (7B),A13.M1,A14.M1,↓,not tested,Table 5
+R0119,14,A13; A14; A15; A16; A17; A18,cot,Qwen2.5VL (7B),A13.M1,A15.M1,↑,not tested,Table 5
+R0119,15,A13; A14; A15; A16; A17; A18,cot,Qwen2.5VL (7B),A13.M1,A16.M1,↑,not tested,Table 5
+R0119,16,A13; A14; A15; A16; A17; A18,cot,Qwen2.5VL (7B),A13.M1,A17.M1,↓,not tested,Table 5
+R0119,17,A13; A14; A15; A16; A17; A18,few-shot,Qwen2.5VL (7B),A13.M1,A18.M1,↓,not tested,Sec 3.3
+R0119,18,A13,model,Qwen2.5VL (7B) -> Qwen2.5VL-72B,A13.M1,A13.M2,↑,not tested,Sec 3.3
+R0119,19,A19; A20; A21; A22; A23; A24,pipeline,Qwen2.5VL (7B),A19.M1,A20.M1,↓,not tested,Table 5
+R0119,20,A19; A20; A21; A22; A23; A24,cot,Qwen2.5VL (7B),A19.M1,A21.M1,↓,not tested,Table 5
+R0119,21,A19; A20; A21; A22; A23; A24,cot,Qwen2.5VL (7B),A19.M1,A22.M1,↓,not tested,Table 5
+R0119,22,A19; A20; A21; A22; A23; A24,cot,Qwen2.5VL (7B),A19.M1,A23.M1,↓,not tested,Table 5
+R0119,23,A19,model,Qwen2.5VL (7B) -> Qwen2.5VL-72B,A19.M1,A19.M2,↑,not tested,Sec 3.3
+R0119,24,A25; A26; A27; A28; A29; A30,pipeline,Qwen2.5VL (7B),A25.M1,A26.M1,↑,not tested,Table 6
+R0119,25,A25; A26; A27; A28; A29; A30,cot,Qwen2.5VL (7B),A25.M1,A27.M1,↑,not tested,Table 6
+R0119,26,A25; A26; A27; A28; A29; A30,cot,Qwen2.5VL (7B),A25.M1,A28.M1,↑,not tested,Table 6
+R0119,27,A25; A26; A27; A28; A29; A30,cot,Qwen2.5VL (7B),A25.M1,A29.M1,↓,not tested,Table 6
+R0119,28,A25; A26; A27; A28; A29; A30,few-shot,Qwen2.5VL (7B),A25.M1,A30.M1,↑,not tested,Sec 3.3
+R0119,29,A25,model,Qwen2.5VL (7B) -> Qwen2.5VL-72B,A25.M1,A25.M2,↑,not tested,Sec 3.3
+R0119,30,A31; A32; A33; A34; A35; A36,pipeline,Qwen2.5VL (7B),A31.M1,A32.M1,↓,not tested,Table 6
+R0119,31,A31; A32; A33; A34; A35; A36,cot,Qwen2.5VL (7B),A31.M1,A33.M1,↑,not tested,Table 6
+R0119,32,A31; A32; A33; A34; A35; A36,cot,Qwen2.5VL (7B),A31.M1,A34.M1,↓,not tested,Table 6
+R0119,33,A31; A32; A33; A34; A35; A36,cot,Qwen2.5VL (7B),A31.M1,A35.M1,↓,not tested,Table 6
+R0119,34,A31; A32; A33; A34; A35; A36,few-shot,Qwen2.5VL (7B),A31.M1,A36.M1,unknown (F1 not reported; recall ↑ 25.44 -> 32.54),not tested,Sec 3.3
+R0119,35,A31,model,Qwen2.5VL (7B) -> Qwen2.5VL-72B,A31.M1,A31.M2,↓,not tested,Sec 3.3
+R0119,36,A31,model,Qwen2.5VL (7B) -> GPT4o,A31.M1,A31.M3,↑,not tested,Sec 3.3
+R0119,37,A31,model,Qwen2.5VL-72B -> GPT4o,A31.M2,A31.M3,↑,not tested,Sec 3.3
+R0119,38,A37; A38; A39; A40; A41; A42,pipeline,Qwen2.5VL (7B),A37.M1,A38.M1,↓,not tested,Table 6
+R0119,39,A37; A38; A39; A40; A41; A42,cot,Qwen2.5VL (7B),A37.M1,A39.M1,↓,not tested,Table 6
+R0119,40,A37; A38; A39; A40; A41; A42,cot,Qwen2.5VL (7B),A37.M1,A40.M1,↑,not tested,Table 6
+R0119,41,A37; A38; A39; A40; A41; A42,cot,Qwen2.5VL (7B),A37.M1,A41.M1,↓,not tested,Table 6
+R0119,42,A37,model,Qwen2.5VL (7B) -> Qwen2.5VL-72B,A37.M1,A37.M2,↑,not tested,Sec 3.3
+R0119,43,A37,model,Qwen2.5VL (7B) -> GPT4o,A37.M1,A37.M3,↑,not tested,Sec 3.3
+R0119,44,A37,model,Qwen2.5VL-72B -> GPT4o,A37.M2,A37.M3,↓,not tested,Sec 3.3
+R0119,45,A43; A44; A45; A46; A47; A48,pipeline,Qwen2.5VL (7B),A43.M1,A44.M1,↑,not tested,Table 7
+R0119,46,A43; A44; A45; A46; A47; A48,cot,Qwen2.5VL (7B),A43.M1,A45.M1,↑,not tested,Table 7
+R0119,47,A43; A44; A45; A46; A47; A48,cot,Qwen2.5VL (7B),A43.M1,A46.M1,↑,not tested,Table 7
+R0119,48,A43; A44; A45; A46; A47; A48,cot,Qwen2.5VL (7B),A43.M1,A47.M1,↓,not tested,Table 7
+R0119,49,A49; A50; A51; A52; A53; A54,pipeline,Qwen2.5VL (7B),A49.M1,A50.M1,↓,not tested,Table 8
+R0119,50,A49; A50; A51; A52; A53; A54,cot,Qwen2.5VL (7B),A49.M1,A51.M1,↓,not tested,Table 8
+R0119,51,A49; A50; A51; A52; A53; A54,cot,Qwen2.5VL (7B),A49.M1,A52.M1,↓,not tested,Table 8
+R0119,52,A49; A50; A51; A52; A53; A54,cot,Qwen2.5VL (7B),A49.M1,A53.M1,↓,not tested,Table 8
+R0119,53,A49; A50; A51; A52; A53; A54,few-shot,Qwen2.5VL (7B),A49.M1,A54.M1,↓ or = (text: no improvement),not tested,Sec 3.6
+R0119,54,A49,model,Qwen2.5VL (7B) -> Qwen2.5VL-72B,A49.M1,A49.M2,↓ or = (text: no improvement),not tested,Sec 3.6
+R0119,55,A49,model,Qwen2.5VL (7B) -> GPT4o,A49.M1,A49.M3,↑,not tested,Sec 3.6
+R0119,56,A49,model,Qwen2.5VL-72B -> GPT4o,A49.M2,A49.M3,↑,not tested,Sec 3.6
+R0136,1,A1; A2,other:structured-prompting (catalog cue + CoT + multi-step pipeline confounded),GPT-4.5 + Claude 3.7 (aggregate rows),A2.M3,A1.M3,↑,not tested,"Table 2, §4.2"
+R0136,2,A1; A5,vis-set,GPT-4.5 + Claude 3.7 (system),A1.M3,A5.M3,↓,not tested,§5.3
+R0145,1,A1; A3,vis-set,Qwen2.5-VL-7B,A1.M1,A3.M1,↑,not tested,Table 2
+R0145,2,A2; A4,vis-set,Qwen2.5-VL-7B,A2.M1,A4.M1,↑,not tested,Table 2
+R0145,3,A1; A3,vis-set,Qwen2.5-VL-32B,A1.M2,A3.M2,↓,not tested,Table 2
+R0145,4,A2; A4,vis-set,Qwen2.5-VL-32B,A2.M2,A4.M2,↓,not tested,Table 2
+R0145,5,A1; A3,vis-set,Qwen2.5-VL-72B,A1.M3,A3.M3,↓,not tested,Table 2
+R0145,6,A2; A4,vis-set,Qwen2.5-VL-72B,A2.M3,A4.M3,↑,not tested,Table 2
+R0145,7,A1; A3,vis-set,InternVL3-8B,A1.M4,A3.M4,↓,not tested,Table 2
+R0145,8,A2; A4,vis-set,InternVL3-8B,A2.M4,A4.M4,↓,not tested,Table 2
+R0145,9,A1; A3,vis-set,InternVL3-38B,A1.M5,A3.M5,↑,not tested,Table 2
+R0145,10,A2; A4,vis-set,InternVL3-38B,A2.M5,A4.M5,↓,not tested,Table 2
+R0145,11,A1; A3,vis-set,InternVL3-78B,A1.M6,A3.M6,↑,not tested,Table 2
+R0145,12,A2; A4,vis-set,InternVL3-78B,A2.M6,A4.M6,↑,not tested,Table 2
+R0145,13,A1; A3,vis-set,Gemini-2.5-Flash-Lite,A1.M7,A3.M7,↑,not tested,Table 2
+R0145,14,A2; A4,vis-set,Gemini-2.5-Flash-Lite,A2.M7,A4.M7,↓,not tested,Table 2
+R0145,15,A1; A3,vis-set,GPT-4.1,A1.M8,A3.M8,↓,not tested,Table 2
+R0145,16,A2; A4,vis-set,GPT-4.1,A2.M8,A4.M8,↓,not tested,Table 2
+R0145,17,A1; A3,vis-set,GPT-o3,A1.M9,A3.M9,↓,not tested,Table 2
+R0145,18,A2; A4,vis-set,GPT-o3,A2.M9,A4.M9,↓,not tested,Table 2
+R0145,19,A5; A7; A9,definitions,InternVL3-38B,A5.M1,A7.M1,↑,not tested,Table 13 (App. P)
+R0145,20,A5; A7; A9,definitions,InternVL3-38B,A7.M1,A9.M1,↑,not tested,Table 13 (App. P)
+R0145,21,A5; A7; A9,definitions,InternVL3-38B,A5.M1,A9.M1,↑,not tested,Table 13 (App. P)
+R0145,22,A5; A7; A9,definitions,Qwen2.5-VL-72B,A5.M2,A7.M2,↑,not tested,Table 13 (App. P)
+R0145,23,A5; A7; A9,definitions,Qwen2.5-VL-72B,A7.M2,A9.M2,↓,not tested,Table 13 (App. P)
+R0145,24,A5; A7; A9,definitions,Qwen2.5-VL-72B,A5.M2,A9.M2,↑,not tested,Table 13 (App. P)
+R0145,25,A6; A8; A10,definitions,InternVL3-38B,A6.M1,A8.M1,↓,not tested,Table 13 (App. P)
+R0145,26,A6; A8; A10,definitions,InternVL3-38B,A8.M1,A10.M1,↑,not tested,Table 13 (App. P)
+R0145,27,A6; A8; A10,definitions,InternVL3-38B,A6.M1,A10.M1,↓,not tested,Table 13 (App. P)
+R0145,28,A6; A8; A10,definitions,Qwen2.5-VL-72B,A6.M2,A8.M2,↑,not tested,Table 13 (App. P)
+R0145,29,A6; A8; A10,definitions,Qwen2.5-VL-72B,A8.M2,A10.M2,↓,not tested,Table 13 (App. P)
+R0145,30,A6; A8; A10,definitions,Qwen2.5-VL-72B,A6.M2,A10.M2,↑,not tested,Table 13 (App. P)
+R0162,1,A1,model,Qwen2-VL-7B (base -> VisRef fine-tune),A1.M3,A1.M2,↑,not tested,Fig. 4 (+3.92 printed)
+R0162,2,A1,model,InternVL2-8B (base -> VisRef fine-tune),A1.M4,A1.M5,↑,not tested,Fig. 4 (+3.58 printed)
+R0162,3,A1,model,MiniCPM-V-2.6 (base -> VisRef fine-tune),A1.M6,A1.M7,↑,not tested,Fig. 4 (+3.96 printed)
+R0162,4,A1,model,LLAVA-NeXT-7B (base -> VisRef fine-tune),A1.M8,A1.M9,↑,not tested,Fig. 4 (+3.86 printed)
+R0162,5,A2; A3; A4,other:refinement-strategy,GPT-4,A2.M1,A3.M1,↑,not tested,Table 1 (82.80 -> 83.50)
+R0162,6,A2; A3; A4,other:refinement-strategy,GPT-4,A2.M1,A4.M1,↑,not tested,Table 1 (82.80 -> 84.15)
+R0162,7,A2; A3; A4,other:refinement-strategy,GPT-4,A3.M1,A4.M1,↑,not tested,Table 1 (83.50 -> 84.15)
+R0162,8,A1; A5; A6; A7; A8,vis-set,VisRef [Qwen2-VL-7B],A1.M2,A5.M1,↓,not tested,Fig. 5 (87.44 -> 86.53; trivial baselines differ: 82.52 vs 77.80)
+R0162,9,A1; A5; A6; A7; A8,vis-set,VisRef [Qwen2-VL-7B],A1.M2,A6.M1,↑,not tested,Fig. 5 (87.44 -> 88.26)
+R0162,10,A1; A5; A6; A7; A8,vis-set,VisRef [Qwen2-VL-7B],A1.M2,A7.M1,↓,not tested,Fig. 5 (87.44 -> 86.49)
+R0162,11,A1; A5; A6; A7; A8,vis-set,VisRef [Qwen2-VL-7B],A1.M2,A8.M1,↑,not tested,Fig. 5 (87.44 -> 88.13)
+R0163,1,A1 base vs VisJudge fine-tune,model,Qwen2.5-VL-3B-Instruct (base -> LoRA+GRPO),A1.M7,A1.M15,↑,not tested,Table 3; App. E.2.3
+R0163,2,A1 base vs VisJudge fine-tune,model,Qwen2.5-VL-7B-Instruct (base -> LoRA+GRPO),A1.M8,A1.M16,↑,not tested,Table 3; App. E.2.3
+R0163,3,A1 base vs VisJudge fine-tune,model,InternVL3-8B (base -> LoRA+GRPO),A1.M11,A1.M13,↑,not tested,Table 3; App. E.2.3
+R0163,4,A1 base vs VisJudge fine-tune,model,Llava-v1.6-mistral-7B (base -> LoRA+GRPO),A1.M12,A1.M14,↑,not tested,Table 3; App. E.2.3
+R0175,1,A1,model,GPT-4V -> Claude-3.7 (parser),A1.M1,A1.M2,↑,"not tested (asterisks are vs GPT-Score, not between parsers)","Table 2, block ChartCraft, O-G vs O-C"
+R0175,2,A2,model,GPT-4V -> Claude-3.7 (parser),A2.M1,A2.M2,↑,"not tested (asterisks are vs GPT-Score, not between parsers)","Table 2, block ChartMimic, O-G vs O-C"
+R0175,3,A3,model,GPT-4V -> Claude-3.7 (parser),A3.M1,A3.M2,↑,"not tested (asterisks are vs GPT-Score, not between parsers)","Table 2, block ChartX, O-G vs O-C"
+R0175,4,A4,model,GPT-4V -> Claude-3.7 (parser),A4.M1,A4.M2,↑,"not tested (asterisks are vs GPT-Score, not between parsers)","Table 2, block Text2Chart31, O-G vs O-C"
+R0175,5,A1; A2; A3; A4,vis-set,GPT-4V,A1.M1,A2.M1,↑,not tested,"Table 2, blocks ChartCraft vs ChartMimic, column O-G"
+R0175,6,A1; A2; A3; A4,vis-set,GPT-4V,A1.M1,A3.M1,↑,not tested,"Table 2, blocks ChartCraft vs ChartX, column O-G"
+R0175,7,A1; A2; A3; A4,vis-set,GPT-4V,A1.M1,A4.M1,=,not tested,"Table 2, blocks ChartCraft vs Text2Chart31, column O-G"
+R0175,8,A1; A2; A3; A4,vis-set,GPT-4V,A2.M1,A3.M1,↑,not tested,"Table 2, blocks ChartMimic vs ChartX, column O-G"
+R0175,9,A1; A2; A3; A4,vis-set,GPT-4V,A2.M1,A4.M1,↓,not tested,"Table 2, blocks ChartMimic vs Text2Chart31, column O-G"
+R0175,10,A1; A2; A3; A4,vis-set,GPT-4V,A3.M1,A4.M1,=,not tested,"Table 2, blocks ChartX vs Text2Chart31, column O-G"
+R0175,11,A1; A2; A3; A4,vis-set,Claude-3.7,A1.M2,A2.M2,↑,not tested,"Table 2, blocks ChartCraft vs ChartMimic, column O-C"
+R0175,12,A1; A2; A3; A4,vis-set,Claude-3.7,A1.M2,A3.M2,↑,not tested,"Table 2, blocks ChartCraft vs ChartX, column O-C"
+R0175,13,A1; A2; A3; A4,vis-set,Claude-3.7,A1.M2,A4.M2,↑,not tested,"Table 2, blocks ChartCraft vs Text2Chart31, column O-C"
+R0175,14,A1; A2; A3; A4,vis-set,Claude-3.7,A2.M2,A3.M2,↑,not tested,"Table 2, blocks ChartMimic vs ChartX, column O-C"
+R0175,15,A1; A2; A3; A4,vis-set,Claude-3.7,A2.M2,A4.M2,↑,not tested,"Table 2, blocks ChartMimic vs Text2Chart31, column O-C"
+R0175,16,A1; A2; A3; A4,vis-set,Claude-3.7,A3.M2,A4.M2,=,not tested,"Table 2, blocks ChartX vs Text2Chart31, column O-C"
+R0175,17,A5; A6; A7; A8,vis-set,GPT-4o,A5.M1,A6.M1,↑,not tested,"Table 2, blocks ChartCraft vs ChartMimic, column GPT-Sc"
+R0175,18,A5; A6; A7; A8,vis-set,GPT-4o,A5.M1,A7.M1,↑,not tested,"Table 2, blocks ChartCraft vs ChartX, column GPT-Sc"
+R0175,19,A5; A6; A7; A8,vis-set,GPT-4o,A5.M1,A8.M1,↑,not tested,"Table 2, blocks ChartCraft vs Text2Chart31, column GPT-Sc"
+R0175,20,A5; A6; A7; A8,vis-set,GPT-4o,A6.M1,A7.M1,↑,not tested,"Table 2, blocks ChartMimic vs ChartX, column GPT-Sc"
+R0175,21,A5; A6; A7; A8,vis-set,GPT-4o,A6.M1,A8.M1,↑,not tested,"Table 2, blocks ChartMimic vs Text2Chart31, column GPT-Sc"
+R0175,22,A5; A6; A7; A8,vis-set,GPT-4o,A7.M1,A8.M1,↓,not tested,"Table 2, blocks ChartX vs Text2Chart31, column GPT-Sc"
+R0182,1,A1; A3,pipeline,Gemini-Flash-2.5,A3.M1,A1.M1,↑,not tested,§6.4; Fig. 11
+R0182,2,A2; A4,pipeline,Gemini-Flash-2.5,A4.M1,A2.M1,↑,"not tested (per-type 95% CIs only, Table 8)",§6.4; Fig. 12; Table 8
+R0182,3,A5; A6,pipeline,Gemini-Flash-2.5,A6.M1,A5.M1,↑,p < 0.001 (Wilcoxon signed-rank),§7 Analysis; Fig. 13
+R0215,1,A1; A2; A3; A4; A5,vis-set,Ovis-2.5-2B,A1.M1,A2.M1,↑,not tested,Fig. 4 top
+R0215,2,A1; A2; A3; A4; A5,vis-set,Ovis-2.5-2B,A1.M1,A3.M1,↑,not tested,Fig. 4 top
+R0215,3,A1; A2; A3; A4; A5,vis-set,Ovis-2.5-9B,A1.M2,A2.M2,↑,not tested,Fig. 4 top
+R0215,4,A1; A2; A3; A4; A5,vis-set,Ovis-2.5-9B,A1.M2,A3.M2,↑,not tested,Fig. 4 top
+R0215,5,A1; A2; A3; A4; A5,vis-set,InternVL-3.5-1B,A1.M3,A2.M3,↑,not tested,Fig. 4 top
+R0215,6,A1; A2; A3; A4; A5,vis-set,InternVL-3.5-1B,A1.M3,A3.M3,↑,not tested,Fig. 4 top
+R0215,7,A1; A2; A3; A4; A5,vis-set,InternVL-3.5-2B,A1.M4,A2.M4,↑,not tested,Fig. 4 top
+R0215,8,A1; A2; A3; A4; A5,vis-set,InternVL-3.5-2B,A1.M4,A3.M4,↑,not tested,Fig. 4 top
+R0215,9,A1; A2; A3; A4; A5,vis-set,InternVL-3.5-4B,A1.M5,A2.M5,↑,not tested,Fig. 4 top
+R0215,10,A1; A2; A3; A4; A5,vis-set,InternVL-3.5-4B,A1.M5,A3.M5,↑,not tested,Fig. 4 top
+R0215,11,A1; A2; A3; A4; A5,vis-set,InternVL-3.5-8B,A1.M6,A2.M6,↑,not tested,Fig. 4 top
+R0215,12,A1; A2; A3; A4; A5,vis-set,InternVL-3.5-8B,A1.M6,A3.M6,↑,not tested,Fig. 4 top
+R0215,13,A1; A2; A3; A4; A5,vis-set,InternVL-3.5-14B,A1.M7,A2.M7,↑,not tested,Fig. 4 top
+R0215,14,A1; A2; A3; A4; A5,vis-set,InternVL-3.5-14B,A1.M7,A3.M7,↑,not tested,Fig. 4 top
+R0215,15,A1; A2; A3; A4; A5,vis-set,InternVL-3.5-38B,A1.M8,A2.M8,↑,not tested,Fig. 4 top
+R0215,16,A1; A2; A3; A4; A5,vis-set,InternVL-3.5-38B,A1.M8,A3.M8,↑,not tested,Fig. 4 top
+R0215,17,A1; A2; A3; A4; A5,vis-set,LLaVA-1.6-7B,A1.M9,A2.M9,↑,not tested,Fig. 4 top
+R0215,18,A1; A2; A3; A4; A5,vis-set,LLaVA-1.6-7B,A1.M9,A3.M9,↓,not tested,Fig. 4 top
+R0215,19,A1; A2; A3; A4; A5,vis-set,LLaVA-1.6-13B,A1.M10,A2.M10,↑,not tested,Fig. 4 top
+R0215,20,A1; A2; A3; A4; A5,vis-set,LLaVA-1.6-13B,A1.M10,A3.M10,↑,not tested,Fig. 4 top
+R0215,21,A1; A2; A3; A4; A5,vis-set,LLaVA-1.6-34B,A1.M11,A2.M11,↑,not tested,Fig. 4 top
+R0215,22,A1; A2; A3; A4; A5,vis-set,LLaVA-1.6-34B,A1.M11,A3.M11,↑,not tested,Fig. 4 top
+R0215,23,A1; A2; A3; A4; A5,vis-set,Qwen3-VL-2B,A1.M12,A2.M12,↑,not tested,Fig. 4 top
+R0215,24,A1; A2; A3; A4; A5,vis-set,Qwen3-VL-2B,A1.M12,A3.M12,↑,not tested,Fig. 4 top
+R0215,25,A1; A2; A3; A4; A5,vis-set,Qwen3-VL-4B,A1.M13,A2.M13,↑,not tested,Fig. 4 top
+R0215,26,A1; A2; A3; A4; A5,vis-set,Qwen3-VL-4B,A1.M13,A3.M13,↑,not tested,Fig. 4 top
+R0215,27,A1; A2; A3; A4; A5,vis-set,Qwen3-VL-8B,A1.M14,A2.M14,↑,not tested,Fig. 4 top
+R0215,28,A1; A2; A3; A4; A5,vis-set,Qwen3-VL-8B,A1.M14,A3.M14,↑,not tested,Fig. 4 top
+R0215,29,A1; A2; A3; A4; A5,vis-set,Qwen3-VL-32B,A1.M15,A2.M15,↑,not tested,Fig. 4 top
+R0215,30,A1; A2; A3; A4; A5,vis-set,Qwen3-VL-32B,A1.M15,A3.M15,↑,not tested,Fig. 4 top
+R0215,31,A1; A2; A3; A4; A5,vis-set,LLaMA-4 (17B-16E),A1.M16,A2.M16,↑,not tested,Fig. 4 top
+R0215,32,A1; A2; A3; A4; A5,vis-set,LLaMA-4 (17B-16E),A1.M16,A3.M16,↑,not tested,Fig. 4 top
+R0215,33,A1; A2; A3; A4; A5,vis-set,GPT-4o,A1.M17,A2.M17,↑,not tested,Fig. 4 top
+R0215,34,A1; A2; A3; A4; A5,vis-set,GPT-4o,A1.M17,A3.M17,↑,not tested,Fig. 4 top
+R0215,35,A1; A2; A3; A4; A5,vis-set,Gemini-2.5-Flash,A1.M18,A2.M18,↑,not tested,Fig. 4 top
+R0215,36,A1; A2; A3; A4; A5,vis-set,Gemini-2.5-Flash,A1.M18,A3.M18,↑,not tested,Fig. 4 top
+R0215,37,A1; A2; A3; A4; A5,vis-set,Claude-4.6-Sonnet,A1.M19,A2.M19,↑,not tested,Fig. 4 top
+R0215,38,A1; A2; A3; A4; A5,vis-set,Claude-4.6-Sonnet,A1.M19,A3.M19,↑,not tested,Fig. 4 top
+R0215,39,A1; A2; A3; A4; A5,vis-set,InternVL-3.5-14B,A1.M7,A4.M1,↓,not tested,§5.2 Random baseline comparison
+R0215,40,A1; A2; A3; A4; A5,vis-set,InternVL-3.5-14B,A1.M7,A5.M1,↓,not tested,Fig. 4 top; Table 13
+R0215,41,A6,model,Qwen2.5-VL-3B-Instruct base → QLoRA SFT on AttackViz,A6.M1,A6.M2,↑,not tested,§6; Table 3
+R0215,42,A7,model,Qwen2.5-VL-3B-Instruct base → QLoRA SFT on AttackViz,A7.M1,A7.M2,↑,not tested,§6; Table 3
+R0215,43,A8,model,Qwen2.5-VL-3B-Instruct base → QLoRA SFT on AttackViz,A8.M1,A8.M2,↓,not tested,§6; Table 3
+R0215,44,A6; A7; A8,vis-set,Qwen2.5-VL-3B-Instruct base,A6.M1,A7.M1,↑,not tested,Table 3
+R0215,45,A6; A7; A8,vis-set,Qwen2.5-VL-3B-Instruct base,A6.M1,A8.M1,↑,not tested,Table 3
+R0215,46,A6; A7; A8,vis-set,Qwen2.5-VL-3B-Instruct SFT,A6.M2,A7.M2,↓,not tested,Table 3
+R0215,47,A6; A7; A8,vis-set,Qwen2.5-VL-3B-Instruct SFT,A6.M2,A8.M2,↓,not tested,Table 3
+R0218,1,A1; A2; A3,other:metric-design (rubric + aux input; confounded),GPT-4o,A1.M1,A2.M1,↑,"not tested; 95% CIs overlap ([0.60, 0.78] vs [0.64, 0.79]); authors: 'similarly to MatPlotBench'",Table 4; Sec 5.5
+R0218,2,A1; A2; A3,other:metric-design (rubric + aux input; confounded),GPT-4o,A1.M1,A3.M1,↓,"not tested; authors: 'significantly worse'; 95% CIs do not overlap ([0.60, 0.78] vs [0.30, 0.58])",Table 4; Sec 5.5
+R0218,3,A1; A2; A3,other:metric-design (rubric + aux input; confounded),GPT-4o,A2.M1,A3.M1,↓,"not tested; authors: 'significantly worse'; 95% CIs do not overlap ([0.64, 0.79] vs [0.30, 0.58])",Table 4; Sec 5.5
+R0234,1,A1; A3,modality,Llava-13B,A1.M2,A3.M2,↓,not tested,Table 1 vs Table 2; §5.2
+R0234,2,A1; A3,modality,Gemma-3-12B,A1.M4,A3.M4,↓,not tested,Table 1 vs Table 2; §5.2
+R0234,3,A1; A3,modality,GPT-4o,A1.M6,A3.M6,↑,not tested,Table 1 vs Table 2; §5.2
+R0234,4,A1; A3,modality,Gemini-2.5-Flash,A1.M7,A3.M7,↑,not tested,Table 1 vs Table 2; §5.2
+R0234,5,A2; A4,modality,Llava-13B,A2.M2,A4.M2,↑,not tested,Table 1 vs Table 2; §5.2
+R0234,6,A2; A4,modality,Gemma-3-12B,A2.M4,A4.M4,↑,not tested,Table 1 vs Table 2; §5.2
+R0234,7,A2; A4,modality,GPT-4o,A2.M6,A4.M6,↑,not tested,Table 1 vs Table 2; §5.2
+R0234,8,A2; A4,modality,Gemini-2.5-Flash,A2.M7,A4.M7,↑,not tested,Table 1 vs Table 2; §5.2
+R0234,9,A1; A2,vis-set,Deepseek-v2-16B,A1.M1,A2.M1,↑,not tested,Table 1; §4.4
+R0234,10,A1; A2,vis-set,Llava-13B,A1.M2,A2.M2,↑,not tested,Table 1; §4.4
+R0234,11,A1; A2,vis-set,Llama-3.1-8B,A1.M3,A2.M3,↑,not tested,Table 1; §4.4
+R0234,12,A1; A2,vis-set,Gemma-3-12B,A1.M4,A2.M4,↑,not tested,Table 1; §4.4
+R0234,13,A1; A2,vis-set,GPT-OSS-20B,A1.M5,A2.M5,↑,not tested,Table 1; §4.4
+R0234,14,A1; A2,vis-set,GPT-4o,A1.M6,A2.M6,↑,not tested,Table 1; §4.4
+R0234,15,A1; A2,vis-set,Gemini-2.5-Flash,A1.M7,A2.M7,↑,not tested,Table 1; §4.4
+R0234,16,A3; A4,vis-set,Llava-13B,A3.M2,A4.M2,↑,not tested,Table 2; §5.2
+R0234,17,A3; A4,vis-set,Gemma-3-12B,A3.M4,A4.M4,↑,not tested,Table 2; §5.2
+R0234,18,A3; A4,vis-set,GPT-4o,A3.M6,A4.M6,↑,not tested,Table 2; §5.2
+R0234,19,A3; A4,vis-set,Gemini-2.5-Flash,A3.M7,A4.M7,↑,not tested,Table 2; §5.2
+R0235,1,A2; A3,other:definition-format,Llama3.2 3B,A2.M1,A3.M1,↑,not tested,"Sec. 4 ASP vs. Human-Written Problem Definitions, p. 5"
+R0235,2,A2; A3,other:definition-format,Gemma3 4B,A2.M2,A3.M2,↑,not tested,"Sec. 4 ASP vs. Human-Written Problem Definitions, p. 5"
+R0248,1,A1; A3,other:prompt-wording,Gemini-2.5-Pro,A1.M3,A3.M3,↑,not tested (authors: 'closely match'; difference within main-prompt 3-run SD +/- 0.05),Table 4 p.6; Table 11 p.19; Table 12 p.20
+R0248,2,A2; A4,other:prompt-wording,Gemini-2.5-Pro,A2.M3,A4.M3,↑,not tested (authors: 'closely match'; difference within main-prompt 3-run SD +/- 0.04),Table 4 p.6; Table 11 p.19; Table 12 p.20
+R0253,1,A1; A2; A3; A4; A5; A6; A7,pipeline,Qwen3-VL-8B,A1.M2,A4.M1,↑,not tested,Table 1 (p.7) MC (45.57 -> 60.66)
+R0253,2,A1; A2; A3; A4; A5; A6; A7,pipeline,o4-mini,A1.M3,A4.M3,↑,not tested,Table 1 (p.7) MC (55.08 -> 71.80)
+R0253,3,A1; A2; A3; A4; A5; A6; A7,pipeline,Gemini-2.5-Flash,A1.M4,A4.M4,↑,not tested,Table 1 (p.7) MC (67.21 -> 71.67)
+R0253,4,A1; A2; A3; A4; A5; A6; A7,pipeline,Gemini-3.1-Pro,A1.M5,A4.M5,↑,not tested,Table 1 (p.7) MC (70.49 -> 81.31)
+R0253,5,A1; A2; A3; A4; A5; A6; A7,pipeline,Qwen3-VL-8B,A1.M2,A2.M1,↑,not tested,Table 1 (p.7) MC (45.57 -> 49.18)
+R0253,6,A1; A2; A3; A4; A5; A6; A7,pipeline,Qwen3-VL-8B,A1.M2,A3.M1,↓,not tested,Table 1 (p.7) MC (45.57 -> 44.26)
+R0253,7,A1; A2; A3; A4; A5; A6; A7,pipeline,Qwen3-VL-8B,A2.M1,A4.M1,↑,not tested,Table 1 (p.7) MC (49.18 -> 60.66)
+R0253,8,A1; A2; A3; A4; A5; A6; A7,pipeline,Qwen3-VL-8B,A3.M1,A4.M1,↑,not tested,Table 1 (p.7) MC (44.26 -> 60.66)
+R0253,9,A1; A2; A3; A4; A5; A6; A7,pipeline,Qwen3-VL-8B,A5.M1,A6.M1,↑,not tested,Table 3 (p.8) (52.13 -> 57.38)
+R0253,10,A1; A2; A3; A4; A5; A6; A7,pipeline,Qwen3-VL-8B,A5.M1,A7.M1,↓,not tested,Table 3 (p.8) (52.13 -> 46.89)
+R0253,11,A1; A2; A3; A4; A5; A6; A7,pipeline,Qwen3-VL-8B,A5.M1,A4.M1,↑,not tested,Table 3 (p.8) (52.13 -> 60.66)
+R0253,12,A1; A2; A3; A4; A5; A6; A7,pipeline,Qwen3-VL-8B,A6.M1,A4.M1,↑,not tested,Table 3 (p.8) (57.38 -> 60.66)
+R0253,13,A1; A2; A3; A4; A5; A6; A7,pipeline,Qwen3-VL-8B,A7.M1,A4.M1,↑,not tested,Table 3 (p.8) (46.89 -> 60.66)
+R0253,14,A8; A9; A10; A11,pipeline,Qwen3-VL-8B,A8.M2,A11.M1,↑,not tested,Table 1 (p.7) CDCC (35.45 -> 47.47)
+R0253,15,A8; A9; A10; A11,pipeline,o4-mini,A8.M3,A11.M3,↑,not tested,Table 1 (p.7) CDCC (69.09 -> 79.09)
+R0253,16,A8; A9; A10; A11,pipeline,Gemini-2.5-Flash,A8.M4,A11.M4,↑,not tested,Table 1 (p.7) CDCC (62.73 -> 75.45)
+R0253,17,A8; A9; A10; A11,pipeline,Gemini-3.1-Pro,A8.M5,A11.M5,↑,not tested,Table 1 (p.7) CDCC (68.18 -> 86.36)
+R0253,18,A8; A9; A10; A11,pipeline,Qwen3-VL-8B,A8.M2,A9.M1,↑,not tested,"Table 1 (p.7) CDCC (35.45 -> 36.39; 36.39 likely 36.36, direction unchanged)"
+R0253,19,A8; A9; A10; A11,pipeline,Qwen3-VL-8B,A8.M2,A10.M1,↑,not tested,Table 1 (p.7) CDCC (35.45 -> 38.18)
+R0253,20,A8; A9; A10; A11,pipeline,Qwen3-VL-8B,A9.M1,A11.M1,↑,not tested,Table 1 (p.7) CDCC (36.39 -> 47.47)
+R0253,21,A8; A9; A10; A11,pipeline,Qwen3-VL-8B,A10.M1,A11.M1,↑,not tested,Table 1 (p.7) CDCC (38.18 -> 47.47)
+R0256,1,A1; A2,other:task3-topic,nemotron,A1.M1,A2.M1,↑,"not tested per model; across the 16 models Wilcoxon W = 27.0, p = 0.034, paired t = −2.14, p = 0.049 (E.2A higher)","Tab. A4/A5, p.15; Sec. 6.3, p.6"
+R0256,2,A1; A2,other:task3-topic,mistral,A1.M2,A2.M2,↓,"not tested per model; across the 16 models Wilcoxon W = 27.0, p = 0.034, paired t = −2.14, p = 0.049 (E.2A higher)","Tab. A4/A5, p.15; Sec. 6.3, p.6"
+R0256,3,A1; A2,other:task3-topic,deepseek,A1.M3,A2.M3,↓,"not tested per model; across the 16 models Wilcoxon W = 27.0, p = 0.034, paired t = −2.14, p = 0.049 (E.2A higher)","Tab. A4/A5, p.15; Sec. 6.3, p.6"
+R0256,4,A1; A2,other:task3-topic,gemma,A1.M4,A2.M4,↓,"not tested per model; across the 16 models Wilcoxon W = 27.0, p = 0.034, paired t = −2.14, p = 0.049 (E.2A higher)","Tab. A4/A5, p.15; Sec. 6.3, p.6"
+R0256,5,A1; A2,other:task3-topic,gta,A1.M5,A2.M5,↓,"not tested per model; across the 16 models Wilcoxon W = 27.0, p = 0.034, paired t = −2.14, p = 0.049 (E.2A higher)","Tab. A4/A5, p.15; Sec. 6.3, p.6"
+R0256,6,A1; A2,other:task3-topic,qianfan,A1.M6,A2.M6,↑,"not tested per model; across the 16 models Wilcoxon W = 27.0, p = 0.034, paired t = −2.14, p = 0.049 (E.2A higher)","Tab. A4/A5, p.15; Sec. 6.3, p.6"
+R0256,7,A1; A2,other:task3-topic,molmo,A1.M7,A2.M7,↑,"not tested per model; across the 16 models Wilcoxon W = 27.0, p = 0.034, paired t = −2.14, p = 0.049 (E.2A higher)","Tab. A4/A5, p.15; Sec. 6.3, p.6"
+R0256,8,A1; A2,other:task3-topic,glm,A1.M8,A2.M8,↑,"not tested per model; across the 16 models Wilcoxon W = 27.0, p = 0.034, paired t = −2.14, p = 0.049 (E.2A higher)","Tab. A4/A5, p.15; Sec. 6.3, p.6"
+R0256,9,A1; A2,other:task3-topic,llava,A1.M9,A2.M9,↑,"not tested per model; across the 16 models Wilcoxon W = 27.0, p = 0.034, paired t = −2.14, p = 0.049 (E.2A higher)","Tab. A4/A5, p.15; Sec. 6.3, p.6"
+R0256,10,A1; A2,other:task3-topic,pixtral,A1.M10,A2.M10,↑,"not tested per model; across the 16 models Wilcoxon W = 27.0, p = 0.034, paired t = −2.14, p = 0.049 (E.2A higher)","Tab. A4/A5, p.15; Sec. 6.3, p.6"
+R0256,11,A1; A2,other:task3-topic,qwen,A1.M11,A2.M11,↑,"not tested per model; across the 16 models Wilcoxon W = 27.0, p = 0.034, paired t = −2.14, p = 0.049 (E.2A higher)","Tab. A4/A5, p.15; Sec. 6.3, p.6"
+R0256,12,A1; A2,other:task3-topic,intern,A1.M12,A2.M12,↑,"not tested per model; across the 16 models Wilcoxon W = 27.0, p = 0.034, paired t = −2.14, p = 0.049 (E.2A higher)","Tab. A4/A5, p.15; Sec. 6.3, p.6"
+R0256,13,A1; A2,other:task3-topic,step3,A1.M13,A2.M13,↑,"not tested per model; across the 16 models Wilcoxon W = 27.0, p = 0.034, paired t = −2.14, p = 0.049 (E.2A higher)","Tab. A4/A5, p.15; Sec. 6.3, p.6"
+R0256,14,A1; A2,other:task3-topic,maverick,A1.M14,A2.M14,↓,"not tested per model; across the 16 models Wilcoxon W = 27.0, p = 0.034, paired t = −2.14, p = 0.049 (E.2A higher)","Tab. A4/A5, p.15; Sec. 6.3, p.6"
+R0256,15,A1; A2,other:task3-topic,kimi,A1.M15,A2.M15,↑,"not tested per model; across the 16 models Wilcoxon W = 27.0, p = 0.034, paired t = −2.14, p = 0.049 (E.2A higher)","Tab. A4/A5, p.15; Sec. 6.3, p.6"
+R0256,16,A1; A2,other:task3-topic,gpt,A1.M16,A2.M16,↓,"not tested per model; across the 16 models Wilcoxon W = 27.0, p = 0.034, paired t = −2.14, p = 0.049 (E.2A higher)","Tab. A4/A5, p.15; Sec. 6.3, p.6"
+R0256,17,A3; A4,other:task3-topic,nemotron,A3.M1,A4.M1,↓,not tested,"Fig. A8, p.18"
+R0256,18,A3; A4,other:task3-topic,mistral,A3.M2,A4.M2,↑,not tested,"Fig. A8, p.18"
+R0256,19,A3; A4,other:task3-topic,deepseek,A3.M3,A4.M3,↑,not tested,"Fig. A8, p.18"
+R0256,20,A3; A4,other:task3-topic,gemma,A3.M4,A4.M4,=,not tested,"Fig. A8, p.18"
+R0256,21,A3; A4,other:task3-topic,gta,A3.M5,A4.M5,↓,not tested,"Fig. A8, p.18"
+R0256,22,A3; A4,other:task3-topic,qianfan,A3.M6,A4.M6,↑,not tested,"Fig. A8, p.18"
+R0256,23,A3; A4,other:task3-topic,molmo,A3.M7,A4.M7,↓,not tested,"Fig. A8, p.18"
+R0256,24,A3; A4,other:task3-topic,glm,A3.M8,A4.M8,↓,not tested,"Fig. A8, p.18"
+R0256,25,A3; A4,other:task3-topic,llava,A3.M9,A4.M9,↑,not tested,"Fig. A8, p.18"
+R0256,26,A3; A4,other:task3-topic,pixtral,A3.M10,A4.M10,↑,not tested,"Fig. A8, p.18"
+R0256,27,A3; A4,other:task3-topic,qwen,A3.M11,A4.M11,↑,not tested,"Fig. A8, p.18"
+R0256,28,A3; A4,other:task3-topic,intern,A3.M12,A4.M12,↓,not tested,"Fig. A8, p.18"
+R0256,29,A3; A4,other:task3-topic,step3,A3.M13,A4.M13,↑,not tested,"Fig. A8, p.18"
+R0256,30,A3; A4,other:task3-topic,maverick,A3.M14,A4.M14,↓,not tested,"Fig. A8, p.18"
+R0256,31,A3; A4,other:task3-topic,kimi,A3.M15,A4.M15,↓,not tested,"Fig. A8, p.18"
+R0256,32,A3; A4,other:task3-topic,gpt,A3.M16,A4.M16,↑,not tested,"Fig. A8, p.18"
+R0256,33,A5; A6; A7,cue,nemotron,A5.M1,A6.M1,↓,"not tested per model; across models A→B Δ = 0.04 (drop), p < 0.001 Wilcoxon; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,34,A5; A6; A7,cue,mistral,A5.M2,A6.M2,↓,"not tested per model; across models A→B Δ = 0.04 (drop), p < 0.001 Wilcoxon; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,35,A5; A6; A7,cue,deepseek,A5.M3,A6.M3,↓,"not tested per model; across models A→B Δ = 0.04 (drop), p < 0.001 Wilcoxon; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,36,A5; A6; A7,cue,gemma,A5.M4,A6.M4,↓,"not tested per model; across models A→B Δ = 0.04 (drop), p < 0.001 Wilcoxon; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,37,A5; A6; A7,cue,gta,A5.M5,A6.M5,↓,"not tested per model; across models A→B Δ = 0.04 (drop), p < 0.001 Wilcoxon; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,38,A5; A6; A7,cue,qianfan,A5.M6,A6.M6,↓,"not tested per model; across models A→B Δ = 0.04 (drop), p < 0.001 Wilcoxon; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,39,A5; A6; A7,cue,molmo,A5.M7,A6.M7,↓,"not tested per model; across models A→B Δ = 0.04 (drop), p < 0.001 Wilcoxon; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,40,A5; A6; A7,cue,glm,A5.M8,A6.M8,↓,"not tested per model; across models A→B Δ = 0.04 (drop), p < 0.001 Wilcoxon; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,41,A5; A6; A7,cue,llava,A5.M9,A6.M9,↑,"not tested per model; across models A→B Δ = 0.04 (drop), p < 0.001 Wilcoxon; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,42,A5; A6; A7,cue,pixtral,A5.M10,A6.M10,↑,"not tested per model; across models A→B Δ = 0.04 (drop), p < 0.001 Wilcoxon; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,43,A5; A6; A7,cue,qwen,A5.M11,A6.M11,↑,"not tested per model; across models A→B Δ = 0.04 (drop), p < 0.001 Wilcoxon; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,44,A5; A6; A7,cue,intern,A5.M12,A6.M12,↓,"not tested per model; across models A→B Δ = 0.04 (drop), p < 0.001 Wilcoxon; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,45,A5; A6; A7,cue,step3,A5.M13,A6.M13,↓,"not tested per model; across models A→B Δ = 0.04 (drop), p < 0.001 Wilcoxon; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,46,A5; A6; A7,cue,maverick,A5.M14,A6.M14,↓,"not tested per model; across models A→B Δ = 0.04 (drop), p < 0.001 Wilcoxon; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,47,A5; A6; A7,cue,kimi,A5.M15,A6.M15,↓,"not tested per model; across models A→B Δ = 0.04 (drop), p < 0.001 Wilcoxon; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,48,A5; A6; A7,cue,gpt,A5.M16,A6.M16,↓,"not tested per model; across models A→B Δ = 0.04 (drop), p < 0.001 Wilcoxon; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,49,A5; A6; A7,cue,nemotron,A6.M1,A7.M1,↑,"not tested per model; across models B→C Δ ≈ 0.35, p < 0.001; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,50,A5; A6; A7,cue,mistral,A6.M2,A7.M2,↑,"not tested per model; across models B→C Δ ≈ 0.35, p < 0.001; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,51,A5; A6; A7,cue,deepseek,A6.M3,A7.M3,↑,"not tested per model; across models B→C Δ ≈ 0.35, p < 0.001; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,52,A5; A6; A7,cue,gemma,A6.M4,A7.M4,↑,"not tested per model; across models B→C Δ ≈ 0.35, p < 0.001; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,53,A5; A6; A7,cue,gta,A6.M5,A7.M5,↑,"not tested per model; across models B→C Δ ≈ 0.35, p < 0.001; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,54,A5; A6; A7,cue,qianfan,A6.M6,A7.M6,↑,"not tested per model; across models B→C Δ ≈ 0.35, p < 0.001; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,55,A5; A6; A7,cue,molmo,A6.M7,A7.M7,↑,"not tested per model; across models B→C Δ ≈ 0.35, p < 0.001; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,56,A5; A6; A7,cue,glm,A6.M8,A7.M8,↑,"not tested per model; across models B→C Δ ≈ 0.35, p < 0.001; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,57,A5; A6; A7,cue,llava,A6.M9,A7.M9,↑,"not tested per model; across models B→C Δ ≈ 0.35, p < 0.001; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,58,A5; A6; A7,cue,pixtral,A6.M10,A7.M10,↑,"not tested per model; across models B→C Δ ≈ 0.35, p < 0.001; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,59,A5; A6; A7,cue,qwen,A6.M11,A7.M11,↑,"not tested per model; across models B→C Δ ≈ 0.35, p < 0.001; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,60,A5; A6; A7,cue,intern,A6.M12,A7.M12,↑,"not tested per model; across models B→C Δ ≈ 0.35, p < 0.001; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,61,A5; A6; A7,cue,step3,A6.M13,A7.M13,↑,"not tested per model; across models B→C Δ ≈ 0.35, p < 0.001; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,62,A5; A6; A7,cue,maverick,A6.M14,A7.M14,↑,"not tested per model; across models B→C Δ ≈ 0.35, p < 0.001; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,63,A5; A6; A7,cue,kimi,A6.M15,A7.M15,↑,"not tested per model; across models B→C Δ ≈ 0.35, p < 0.001; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,64,A5; A6; A7,cue,gpt,A6.M16,A7.M16,↑,"not tested per model; across models B→C Δ ≈ 0.35, p < 0.001; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,65,A5; A6; A7,cue,nemotron,A5.M1,A7.M1,↑,"not tested per model; across models A→C Δ ≈ 0.35, p < 0.001; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,66,A5; A6; A7,cue,mistral,A5.M2,A7.M2,↑,"not tested per model; across models A→C Δ ≈ 0.35, p < 0.001; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,67,A5; A6; A7,cue,deepseek,A5.M3,A7.M3,↑,"not tested per model; across models A→C Δ ≈ 0.35, p < 0.001; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,68,A5; A6; A7,cue,gemma,A5.M4,A7.M4,↑,"not tested per model; across models A→C Δ ≈ 0.35, p < 0.001; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,69,A5; A6; A7,cue,gta,A5.M5,A7.M5,↑,"not tested per model; across models A→C Δ ≈ 0.35, p < 0.001; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,70,A5; A6; A7,cue,qianfan,A5.M6,A7.M6,↑,"not tested per model; across models A→C Δ ≈ 0.35, p < 0.001; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,71,A5; A6; A7,cue,molmo,A5.M7,A7.M7,↑,"not tested per model; across models A→C Δ ≈ 0.35, p < 0.001; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,72,A5; A6; A7,cue,glm,A5.M8,A7.M8,↑,"not tested per model; across models A→C Δ ≈ 0.35, p < 0.001; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,73,A5; A6; A7,cue,llava,A5.M9,A7.M9,↑,"not tested per model; across models A→C Δ ≈ 0.35, p < 0.001; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,74,A5; A6; A7,cue,pixtral,A5.M10,A7.M10,↑,"not tested per model; across models A→C Δ ≈ 0.35, p < 0.001; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,75,A5; A6; A7,cue,qwen,A5.M11,A7.M11,↑,"not tested per model; across models A→C Δ ≈ 0.35, p < 0.001; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,76,A5; A6; A7,cue,intern,A5.M12,A7.M12,↑,"not tested per model; across models A→C Δ ≈ 0.35, p < 0.001; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,77,A5; A6; A7,cue,step3,A5.M13,A7.M13,↑,"not tested per model; across models A→C Δ ≈ 0.35, p < 0.001; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,78,A5; A6; A7,cue,maverick,A5.M14,A7.M14,↑,"not tested per model; across models A→C Δ ≈ 0.35, p < 0.001; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,79,A5; A6; A7,cue,kimi,A5.M15,A7.M15,↑,"not tested per model; across models A→C Δ ≈ 0.35, p < 0.001; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,80,A5; A6; A7,cue,gpt,A5.M16,A7.M16,↑,"not tested per model; across models A→C Δ ≈ 0.35, p < 0.001; ANOVA F(2,45) = 36.99, p < 0.001","Fig. A5a, p.16; Sec. 6.4, p.7"
+R0256,81,A8; A9; A10,cue,nemotron,A8.M1,A9.M1,=,"not tested per model; across models A→B not significant; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,82,A8; A9; A10,cue,mistral,A8.M2,A9.M2,↑,"not tested per model; across models A→B not significant; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,83,A8; A9; A10,cue,deepseek,A8.M3,A9.M3,=,"not tested per model; across models A→B not significant; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,84,A8; A9; A10,cue,gemma,A8.M4,A9.M4,↑,"not tested per model; across models A→B not significant; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,85,A8; A9; A10,cue,gta,A8.M5,A9.M5,↑,"not tested per model; across models A→B not significant; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,86,A8; A9; A10,cue,qianfan,A8.M6,A9.M6,↓,"not tested per model; across models A→B not significant; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,87,A8; A9; A10,cue,molmo,A8.M7,A9.M7,↓,"not tested per model; across models A→B not significant; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,88,A8; A9; A10,cue,glm,A8.M8,A9.M8,↑,"not tested per model; across models A→B not significant; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,89,A8; A9; A10,cue,llava,A8.M9,A9.M9,↑,"not tested per model; across models A→B not significant; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,90,A8; A9; A10,cue,pixtral,A8.M10,A9.M10,↑,"not tested per model; across models A→B not significant; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,91,A8; A9; A10,cue,qwen,A8.M11,A9.M11,↓,"not tested per model; across models A→B not significant; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,92,A8; A9; A10,cue,intern,A8.M12,A9.M12,↑,"not tested per model; across models A→B not significant; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,93,A8; A9; A10,cue,step3,A8.M13,A9.M13,=,"not tested per model; across models A→B not significant; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,94,A8; A9; A10,cue,maverick,A8.M14,A9.M14,↓,"not tested per model; across models A→B not significant; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,95,A8; A9; A10,cue,kimi,A8.M15,A9.M15,↓,"not tested per model; across models A→B not significant; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,96,A8; A9; A10,cue,gpt,A8.M16,A9.M16,↓,"not tested per model; across models A→B not significant; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,97,A8; A9; A10,cue,nemotron,A9.M1,A10.M1,↑,"not tested per model; across models B→C Δ ≈ 0.29, p < 0.001; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,98,A8; A9; A10,cue,mistral,A9.M2,A10.M2,↑,"not tested per model; across models B→C Δ ≈ 0.29, p < 0.001; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,99,A8; A9; A10,cue,deepseek,A9.M3,A10.M3,↑,"not tested per model; across models B→C Δ ≈ 0.29, p < 0.001; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,100,A8; A9; A10,cue,gemma,A9.M4,A10.M4,↑,"not tested per model; across models B→C Δ ≈ 0.29, p < 0.001; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,101,A8; A9; A10,cue,gta,A9.M5,A10.M5,↑,"not tested per model; across models B→C Δ ≈ 0.29, p < 0.001; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,102,A8; A9; A10,cue,qianfan,A9.M6,A10.M6,↑,"not tested per model; across models B→C Δ ≈ 0.29, p < 0.001; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,103,A8; A9; A10,cue,molmo,A9.M7,A10.M7,↑,"not tested per model; across models B→C Δ ≈ 0.29, p < 0.001; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,104,A8; A9; A10,cue,glm,A9.M8,A10.M8,↑,"not tested per model; across models B→C Δ ≈ 0.29, p < 0.001; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,105,A8; A9; A10,cue,llava,A9.M9,A10.M9,↑,"not tested per model; across models B→C Δ ≈ 0.29, p < 0.001; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,106,A8; A9; A10,cue,pixtral,A9.M10,A10.M10,↑,"not tested per model; across models B→C Δ ≈ 0.29, p < 0.001; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,107,A8; A9; A10,cue,qwen,A9.M11,A10.M11,↑,"not tested per model; across models B→C Δ ≈ 0.29, p < 0.001; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,108,A8; A9; A10,cue,intern,A9.M12,A10.M12,↑,"not tested per model; across models B→C Δ ≈ 0.29, p < 0.001; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,109,A8; A9; A10,cue,step3,A9.M13,A10.M13,↑,"not tested per model; across models B→C Δ ≈ 0.29, p < 0.001; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,110,A8; A9; A10,cue,maverick,A9.M14,A10.M14,↑,"not tested per model; across models B→C Δ ≈ 0.29, p < 0.001; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,111,A8; A9; A10,cue,kimi,A9.M15,A10.M15,↑,"not tested per model; across models B→C Δ ≈ 0.29, p < 0.001; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,112,A8; A9; A10,cue,gpt,A9.M16,A10.M16,↑,"not tested per model; across models B→C Δ ≈ 0.29, p < 0.001; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,113,A8; A9; A10,cue,nemotron,A8.M1,A10.M1,↑,"not tested per model; across models A→C Δ ≈ 0.29, p < 0.001; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,114,A8; A9; A10,cue,mistral,A8.M2,A10.M2,↑,"not tested per model; across models A→C Δ ≈ 0.29, p < 0.001; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,115,A8; A9; A10,cue,deepseek,A8.M3,A10.M3,↑,"not tested per model; across models A→C Δ ≈ 0.29, p < 0.001; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,116,A8; A9; A10,cue,gemma,A8.M4,A10.M4,↑,"not tested per model; across models A→C Δ ≈ 0.29, p < 0.001; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,117,A8; A9; A10,cue,gta,A8.M5,A10.M5,↑,"not tested per model; across models A→C Δ ≈ 0.29, p < 0.001; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,118,A8; A9; A10,cue,qianfan,A8.M6,A10.M6,↑,"not tested per model; across models A→C Δ ≈ 0.29, p < 0.001; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,119,A8; A9; A10,cue,molmo,A8.M7,A10.M7,↑,"not tested per model; across models A→C Δ ≈ 0.29, p < 0.001; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,120,A8; A9; A10,cue,glm,A8.M8,A10.M8,↑,"not tested per model; across models A→C Δ ≈ 0.29, p < 0.001; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,121,A8; A9; A10,cue,llava,A8.M9,A10.M9,↑,"not tested per model; across models A→C Δ ≈ 0.29, p < 0.001; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,122,A8; A9; A10,cue,pixtral,A8.M10,A10.M10,↑,"not tested per model; across models A→C Δ ≈ 0.29, p < 0.001; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,123,A8; A9; A10,cue,qwen,A8.M11,A10.M11,↑,"not tested per model; across models A→C Δ ≈ 0.29, p < 0.001; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,124,A8; A9; A10,cue,intern,A8.M12,A10.M12,↑,"not tested per model; across models A→C Δ ≈ 0.29, p < 0.001; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,125,A8; A9; A10,cue,step3,A8.M13,A10.M13,↑,"not tested per model; across models A→C Δ ≈ 0.29, p < 0.001; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,126,A8; A9; A10,cue,maverick,A8.M14,A10.M14,↑,"not tested per model; across models A→C Δ ≈ 0.29, p < 0.001; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,127,A8; A9; A10,cue,kimi,A8.M15,A10.M15,↑,"not tested per model; across models A→C Δ ≈ 0.29, p < 0.001; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0256,128,A8; A9; A10,cue,gpt,A8.M16,A10.M16,↑,"not tested per model; across models A→C Δ ≈ 0.29, p < 0.001; ANOVA F(2,45) = 25.73, p < 0.001","Fig. A5b, p.16; Sec. 6.5, p.8"
+R0257,1,shots | Image Only*,few-shot,GPT-4o-mini,A1.M1,A2.M1,↓,not tested,"Table 6, p.7"
+R0257,2,shots | Image Only*,few-shot,GPT-4o-mini,A2.M1,A3.M1,↓,not tested,"Table 6, p.7"
+R0257,3,shots | Image Only*,few-shot,GPT-4o-mini,A1.M1,A3.M1,↓,not tested,"Table 6, p.7"
+R0257,4,shots | Edgelist,few-shot,GPT-4o-mini,A4.M1,A5.M1,↓,not tested,"Table 6, p.7"
+R0257,5,shots | Edgelist,few-shot,GPT-4o-mini,A5.M1,A6.M1,↓,not tested,"Table 6, p.7"
+R0257,6,shots | Edgelist,few-shot,GPT-4o-mini,A4.M1,A6.M1,↓,not tested,"Table 6, p.7"
+R0257,7,shots | Adjacency,few-shot,GPT-4o-mini,A7.M1,A8.M1,↑,not tested,"Table 6, p.7"
+R0257,8,shots | Adjacency,few-shot,GPT-4o-mini,A8.M1,A9.M1,↓,not tested,"Table 6, p.7"
+R0257,9,shots | Adjacency,few-shot,GPT-4o-mini,A7.M1,A9.M1,↓,not tested,"Table 6, p.7"
+R0257,10,shots | Node2Vec,few-shot,GPT-4o-mini,A10.M1,A11.M1,↓,not tested,"Table 6, p.7"
+R0257,11,shots | Spectral,few-shot,GPT-4o-mini,A12.M1,A13.M1,↓,not tested,"Table 6, p.7"
+R0257,12,shots | Spectral,few-shot,GPT-4o-mini,A13.M1,A14.M1,↓,not tested,"Table 6, p.7"
+R0257,13,shots | Spectral,few-shot,GPT-4o-mini,A12.M1,A14.M1,↓,not tested,"Table 6, p.7"
+R0257,14,shots | MB ResNet50*,few-shot,GPT-4o-mini,A15.M1,A16.M1,↑,not tested,"Table 6, p.7"
+R0257,15,shots | MB ResNet50*,few-shot,GPT-4o-mini,A16.M1,A17.M1,↑,not tested,"Table 6, p.7"
+R0257,16,shots | MB ResNet50*,few-shot,GPT-4o-mini,A15.M1,A17.M1,↑,not tested,"Table 6, p.7"
+R0257,17,shots | MB DINOv2*,few-shot,GPT-4o-mini,A18.M1,A19.M1,↑,not tested,"Table 6, p.7"
+R0257,18,shots | MB DINOv2*,few-shot,GPT-4o-mini,A19.M1,A20.M1,↓,not tested,"Table 6, p.7"
+R0257,19,shots | MB DINOv2*,few-shot,GPT-4o-mini,A18.M1,A20.M1,↑,not tested,"Table 6, p.7"
+R0257,20,input | 0-Shot,modality,GPT-4o-mini,A1.M1,A4.M1,↓,not tested,"Table 6, p.7"
+R0257,21,input | 0-Shot,modality,GPT-4o-mini,A1.M1,A7.M1,↓,not tested,"Table 6, p.7"
+R0257,22,input | 0-Shot,modality,GPT-4o-mini,A1.M1,A10.M1,↓,not tested,"Table 6, p.7"
+R0257,23,input | 0-Shot,modality,GPT-4o-mini,A1.M1,A12.M1,↓,not tested,"Table 6, p.7"
+R0257,24,input | 0-Shot,other:input-representation,GPT-4o-mini,A1.M1,A15.M1,↓,not tested,"Table 6, p.7"
+R0257,25,input | 0-Shot,other:input-representation,GPT-4o-mini,A1.M1,A18.M1,↓,not tested,"Table 6, p.7"
+R0257,26,MB encoder | 0-Shot,other:input-representation,GPT-4o-mini,A15.M1,A18.M1,↓,not tested,"Table 6, p.7"
+R0257,27,input | 1-Shot,modality,GPT-4o-mini,A2.M1,A5.M1,↓,not tested,"Table 6, p.7"
+R0257,28,input | 1-Shot,modality,GPT-4o-mini,A2.M1,A8.M1,↓,not tested,"Table 6, p.7"
+R0257,29,input | 1-Shot,modality,GPT-4o-mini,A2.M1,A11.M1,↓,not tested,"Table 6, p.7"
+R0257,30,input | 1-Shot,modality,GPT-4o-mini,A2.M1,A13.M1,↓,not tested,"Table 6, p.7"
+R0257,31,input | 1-Shot,other:input-representation,GPT-4o-mini,A2.M1,A16.M1,↓,not tested,"Table 6, p.7"
+R0257,32,input | 1-Shot,other:input-representation,GPT-4o-mini,A2.M1,A19.M1,↑,not tested,"Table 6, p.7"
+R0257,33,MB encoder | 1-Shot,other:input-representation,GPT-4o-mini,A16.M1,A19.M1,↑,not tested,"Table 6, p.7"
+R0257,34,input | 5-Shot,modality,GPT-4o-mini,A3.M1,A6.M1,↓,not tested,"Table 6, p.7"
+R0257,35,input | 5-Shot,modality,GPT-4o-mini,A3.M1,A9.M1,↓,not tested,"Table 6, p.7"
+R0257,36,input | 5-Shot,modality,GPT-4o-mini,A3.M1,A14.M1,↓,not tested,"Table 6, p.7"
+R0257,37,input | 5-Shot,other:input-representation,GPT-4o-mini,A3.M1,A17.M1,↓,not tested,"Table 6, p.7"
+R0257,38,input | 5-Shot,other:input-representation,GPT-4o-mini,A3.M1,A20.M1,↑,not tested,"Table 6, p.7"
+R0257,39,MB encoder | 5-Shot,other:input-representation,GPT-4o-mini,A17.M1,A20.M1,↑,not tested,"Table 6, p.7"
+R0257,40,models | A19 (MB DINOv2* 1-Shot),model,GPT-4o mini -> Qwen3 (235b-a22b-2507),A19.M1,A19.M2,↓,not tested,"Table 7, p.8"
+R0257,41,models | A19 (MB DINOv2* 1-Shot),model,GPT-4o mini -> Claude Sonet 4.5,A19.M1,A19.M3,↓,not tested,"Table 7, p.8"
+R0257,42,models | A19 (MB DINOv2* 1-Shot),model,GPT-4o mini -> Gemini 2.5 Flash,A19.M1,A19.M4,↓,not tested,"Table 7, p.8"
+R0257,43,models | A19 (MB DINOv2* 1-Shot),model,GPT-4o mini -> GPT-5,A19.M1,A19.M5,↓,not tested,"Table 7, p.8"
+R0257,44,models | A21 (VM backbone size),model,DINOv2-Base -> DINOv2-Small,A21.M2,A21.M1,↓,"not significant (paired t-test across model sizes, t = 1.1245, p = 0.2608; pair not specified)","Table 9, p.8; App. B, p.17"
+R0257,45,models | A21 (VM backbone size),model,DINOv2-Base -> DINOv2-Large,A21.M2,A21.M3,↓,"not significant (paired t-test across model sizes, t = 1.1245, p = 0.2608; pair not specified)","Table 9, p.8; App. B, p.17"
+R0269,1,A2; A3,pipeline,Gemini-3-Pro (Preview),A2.M1,A3.M1,↑,not tested,"Tab. 3, p. 6"
+R0269,2,A2; A3,pipeline,GPT-5.2 (2025-12-11),A2.M2,A3.M2,↑,not tested,"Tab. 3, p. 6"
+R0269,3,A2; A3,pipeline,DeepSeek-V3.2,A2.M3,A3.M3,=,not tested,"Tab. 3, p. 6"
+R0269,4,A2; A3,pipeline,Qwen3-235B-A22B,A2.M4,A3.M10,↑,not tested,"Tab. 3, p. 6"
+R0292,1,A1.M1; A1.M2; A1.M3; A1.M4,model,"TinyLLaVA-450M (ChartGaze checkpoints, without → with gaze supervision)",A1.M1,A1.M2,=,not tested (no test between the gaze and non-gaze variants; only per-Condition McNemar vs original charts: inverted y-axis p 0.098 → 0.404; truncated axis p 0.273 → 0.355; incorrect temporal encoding p 0.029 → 0.453),Table 1; Sec. 4 (Inverted axis; Truncated axis; Incorrect temporal encoding)
+R0292,2,A1.M1; A1.M2; A1.M3; A1.M4,model,"ChartGemma-3B (ChartGaze checkpoints, without → with gaze supervision)",A1.M3,A1.M4,↑,not tested (no test between the gaze and non-gaze variants; only per-Condition McNemar vs original charts: inverted y-axis p <1e-11 → <1e-6; truncated axis p 0.691 → 0.555; incorrect temporal encoding p 0.037 → 0.117),Table 1; Sec. 4 (Inverted axis; Truncated axis; Incorrect temporal encoding)
+R0301,1,A9; A10,modality,Claude 4.6 Sonnet,A9.M1,A10.M1,↑,not tested,Table 9 (p. 19)
+R0305,1,A1; A2,pipeline,GPT-4o,A1.M1,A2.M1,↓,not tested,Table III p.10
+R0305,2,A1; A2,pipeline,Claude 4.5 Haiku,A1.M2,A2.M2,↓,not tested,Table III p.10
+R0305,3,A1; A2,pipeline,Gemini 2.5 Pro,A1.M3,A2.M3,↓,not tested,Table III p.10
+R0305,4,A1; A2,pipeline,Gemini 2.5 Flash,A1.M4,A2.M4,↑,not tested,Table III p.10
+R0305,5,A1; A2,pipeline,Gemma3 12B IT,A1.M5,A2.M5,↓,not tested,Table III p.10
+R0305,6,A1; A2,pipeline,Pixtral 12B,A1.M6,A2.M6,↓,not tested,Table III p.10
+R0305,7,A1; A2,pipeline,Qwen3-VL 2B,A1.M7,A2.M7,↑,not tested,Table III p.10
+R0305,8,A1; A2,pipeline,Qwen3-VL 4B,A1.M8,A2.M8,↓,not tested,Table III p.10
+R0305,9,A1; A2,pipeline,Qwen3-VL 8B,A1.M9,A2.M9,↓,not tested,Table III p.10
+R0305,10,A1; A2,pipeline,Qwen3-VL 32B,A1.M10,A2.M10,↓,not tested,Table III p.10
+R0331,1,A1; A2; A3; A4,vis-set,gemini-2.5-flash,A4.M3,A3.M3,↑,not tested,Table 2 (p. 7)
+R0331,2,A1; A2; A3; A4,vis-set,gemini-2.5-flash,A4.M3,A2.M3,↑,not tested,Table 2 (p. 7)
+R0331,3,A1; A2; A3; A4,vis-set,gemini-2.5-flash,A3.M3,A2.M3,↑,not tested,Table 2 (p. 7)
+R0331,4,A5; A6,other:task-spec-level,"VLM-Judge (average of gpt-5.2, claude-sonnet-4-20250514, gemini-2.5-flash)",A6.M4,A5.M4,NA,not tested,Fig. 4 Exp. 2 (p. 8); Sect. 6.2 (p. 7)
+R0331,5,A7; A8; A9,vis-set,"VLM-Judge (average of gpt-5.2, claude-sonnet-4-20250514, gemini-2.5-flash)",A7.M4,A8.M4,NA,not tested,Fig. 4 Exp. 3 (p. 8); Sect. 6.3 (p. 8)
+R0331,6,A7; A8; A9,vis-set,"VLM-Judge (average of gpt-5.2, claude-sonnet-4-20250514, gemini-2.5-flash)",A8.M4,A9.M4,NA,not tested,Fig. 4 Exp. 3 (p. 8); Sect. 6.3 (p. 8)
+R0331,7,A7; A8; A9,vis-set,"VLM-Judge (average of gpt-5.2, claude-sonnet-4-20250514, gemini-2.5-flash)",A7.M4,A9.M4,NA,not tested,Fig. 4 Exp. 3 (p. 8); Sect. 6.3 (p. 8)
+R0332,1,A5; A6; A7; A8; A9,modality,"SciFigAlign (fine-tuned CLIP ViT-B/32 + SciBERT, CrossAttn + CubeMLP)",A6.M1,A7.M1,↓,not tested,Table 5; Fig. 5
+R0332,2,A5; A6; A7; A8; A9,other:input-fields,"SciFigAlign (fine-tuned CLIP ViT-B/32 + SciBERT, CrossAttn + CubeMLP)",A7.M1,A8.M1,↓,not tested,Table 5; Fig. 5
+R0332,3,A5; A6; A7; A8; A9,other:input-fields,"SciFigAlign (fine-tuned CLIP ViT-B/32 + SciBERT, CrossAttn + CubeMLP)",A8.M1,A9.M1,↓,not tested,Table 5; Fig. 5
+R0332,4,A5; A6; A7; A8; A9,other:context-denoising,"SciFigAlign (fine-tuned CLIP ViT-B/32 + SciBERT, CrossAttn + CubeMLP)",A9.M1,A5.M1,↓,not tested,Table 5; §4.3
+R0332,5,A2; A3; A4,modality,"LLM/VLM judge, model not stated",A2,A3.AGG,↑ (inferred from 'underperform'; no numbers),not tested,§4.3 Baselines and Judge Ceilings
+R0332,6,A2; A3; A4,modality,"LLM/VLM judge, model not stated",A2,A4.AGG,↑ (inferred from 'underperform'; no numbers),not tested,§4.3 Baselines and Judge Ceilings
+R0340,1,A1; A2,cue,DashJudge-8B,A2.M1,A1.M3,↑,not tested,Table 3; Section 'Does Interaction-Aware Evaluation Matter?'
+R0341,1,A1; A2; A3; A4,pipeline,GPT-4o,A1.M1,A2.M1,↑,not tested,"Tab.4, p.8"
+R0341,2,A1; A2; A3; A4,pipeline,Qwen3-VL-4B,A1.M17,A2.M2,↑,not tested,"Tab.4, p.8"
+R0341,3,A1; A2; A3; A4,pipeline,Qwen3-VL-8B,A1.M18,A2.M3,↑,not tested,"Tab.4, p.8"
+R0341,4,A1; A2; A3; A4,pipeline,GPT-4o,A2.M1,A3.M1,↓,not tested,"Tab.4, p.8; §5.3"
+R0341,5,A1; A2; A3; A4,pipeline,GPT-4o,A2.M1,A4.M1,↓,not tested,"Tab.4, p.8; §5.3"
+R0341,6,A1; A2; A3; A4,pipeline,GPT-4o,A1.M1,A3.M1,↑,not tested,"Tab.4, p.8"
+R0341,7,A1; A2; A3; A4,pipeline,GPT-4o,A1.M1,A4.M1,↑,not tested,"Tab.4, p.8"
+R0354,1,A1; A5,other:system,VizDefender (backbone not reported) vs gemini-3.5-flash (VizAnchor),A5.M1,A1.M1,↑,not tested,Table 12
+R0354,2,A2; A6,other:system,VizDefender (backbone not reported) vs gemini-3.5-flash (VizAnchor),A6.M1,A2.M1,↑,not tested,Table 12
+R0354,3,A3; A7,other:system,VizDefender (backbone not reported) vs gemini-3.5-flash (VizAnchor),A7.M1,A3.M1,↑,not tested,Table 13
+R0354,4,A4; A8,other:system,VizDefender (backbone not reported) vs gemini-3.5-flash (VizAnchor),A8.M1,A4.M1,↑,not tested,Table 13
+R0354,5,A9; A13; A17; A21; A25,other:visual-evidence,gemini-3.5-flash,A9.M1,A13.M1,↑,not tested,Table 16
+R0354,6,A9; A13; A17; A21; A25,other:visual-evidence,gemini-3.5-flash,A9.M1,A17.M1,↑,not tested,Table 16
+R0354,7,A9; A13; A17; A21; A25,other:visual-evidence,gemini-3.5-flash,A17.M1,A21.M1,↑,not tested,Table 16
+R0354,8,A9; A13; A17; A21; A25,other:visual-evidence,gemini-3.5-flash,A21.M1,A25.M1,↑,not tested,Table 16
+R0354,9,A9; A13; A17; A21; A25,other:visual-evidence,gemini-3.5-flash,A9.M1,A25.M1,↑,not tested,Table 16
+R0354,10,A10; A14; A18; A22; A26,other:visual-evidence,gemini-3.5-flash,A10.M1,A14.M1,↑,not tested,Table 16
+R0354,11,A10; A14; A18; A22; A26,other:visual-evidence,gemini-3.5-flash,A10.M1,A18.M1,↑,not tested,Table 16
+R0354,12,A10; A14; A18; A22; A26,other:visual-evidence,gemini-3.5-flash,A18.M1,A22.M1,↓,not tested,Table 16
+R0354,13,A10; A14; A18; A22; A26,other:visual-evidence,gemini-3.5-flash,A22.M1,A26.M1,↑,not tested,Table 16
+R0354,14,A10; A14; A18; A22; A26,other:visual-evidence,gemini-3.5-flash,A10.M1,A26.M1,↑,not tested,Table 16
+R0354,15,A11; A15; A19; A23; A27,other:visual-evidence,gemini-3.5-flash,A11.M1,A15.M1,↑,not tested,Table 16
+R0354,16,A11; A15; A19; A23; A27,other:visual-evidence,gemini-3.5-flash,A11.M1,A19.M1,↑,not tested,Table 16
+R0354,17,A11; A15; A19; A23; A27,other:visual-evidence,gemini-3.5-flash,A19.M1,A23.M1,↑,not tested,Table 16
+R0354,18,A11; A15; A19; A23; A27,other:visual-evidence,gemini-3.5-flash,A23.M1,A27.M1,↑,not tested,Table 16
+R0354,19,A11; A15; A19; A23; A27,other:visual-evidence,gemini-3.5-flash,A11.M1,A27.M1,↑,not tested,Table 16
+R0354,20,A12; A16; A20; A24; A28,other:visual-evidence,gemini-3.5-flash,A12.M1,A16.M1,↑,not tested,Table 16
+R0354,21,A12; A16; A20; A24; A28,other:visual-evidence,gemini-3.5-flash,A12.M1,A20.M1,↑,not tested,Table 16
+R0354,22,A12; A16; A20; A24; A28,other:visual-evidence,gemini-3.5-flash,A20.M1,A24.M1,↑,not tested,Table 16
+R0354,23,A12; A16; A20; A24; A28,other:visual-evidence,gemini-3.5-flash,A24.M1,A28.M1,↓,not tested,Table 16
+R0354,24,A12; A16; A20; A24; A28,other:visual-evidence,gemini-3.5-flash,A12.M1,A28.M1,↑,not tested,Table 16
+R0354,25,A4; A29; A30; A31,pipeline,gemini-3.5-flash,A29.M1,A4.M1,↑,not tested,Table 20
+R0354,26,A4; A29; A30; A31,pipeline,gemini-3.5-flash,A30.M1,A4.M1,↑,not tested,Table 20
+R0354,27,A4; A29; A30; A31,pipeline,gemini-3.5-flash,A31.M1,A4.M1,↑,not tested,Table 20
+R0354,28,A32; A34; A36,other:system,VizDefender vs gemini-3.5-flash (VizAnchor),A34.M1,A32.M1,↑,"Holm p = 1.26e-5 (W = 1.0, r_rb = 0.995)",Table 22
+R0354,29,A32; A34; A36,other:system,vanilla VLM (not named) vs gemini-3.5-flash (VizAnchor),A36.M1,A32.M1,↑,"Holm p = 0.00472 (W = 25.0, r_rb = 0.737)",Table 22
+R0354,30,A32; A34; A36,other:system,VizDefender vs vanilla VLM (not named),A34.M1,A36.M1,↑,"Holm p = 1.29e-5 (W = 5.0, r_rb = 0.975)",Table 22
+R0354,31,A33; A35; A37,other:system,VizDefender vs gemini-3.5-flash (VizAnchor),A35.M1,A33.M1,↑,"Holm p = 1.12e-5 (W = 0.0, r_rb = 1.000)",Table 22
+R0354,32,A33; A35; A37,other:system,vanilla VLM (not named) vs gemini-3.5-flash (VizAnchor),A37.M1,A33.M1,↑,"Holm p = 0.00477 (W = 45.5, r_rb = 0.670)",Table 22
+R0354,33,A33; A35; A37,other:system,VizDefender vs vanilla VLM (not named),A35.M1,A37.M1,↑,"Holm p = 1.58e-5 (W = 11.0, r_rb = 0.949)",Table 22
+R0355,1,A1; A2; A4; A5,vis-set,Qwen2.5-VL-7B-Instruct,A1.M2,A4.M1,↓,"not tested (95% CIs overlap: [0.985, 0.999] vs [0.980, 0.999])",§4.1; Fig. 2
+R0355,2,A1; A2; A4; A5,vis-set,Qwen2.5-VL-7B-Instruct,A2.M2,A5.M1,↓,not tested,§4.1; Fig. 3
+R0355,3,A3; A6; A7; A10,vis-set,Qwen2.5-VL-7B-Instruct,A3.M2,A6.M1,↑,not tested,§4.2; Fig. 4
+R0355,4,A8; A9,few-shot,Qwen2.5-VL-7B-Instruct (inferred),A8.M2,A9.M2,↑,"difference 0.12 [-0.03, 0.27], CI includes 0 (not significant)",§4.3
+R0355,5,A3; A8,other:readout (probe vs stated estimate),Qwen2.5-VL-7B-Instruct (inferred),A3.M2,A8.M2,↑,"paired gap 0.36 [0.22, 0.51], CI excludes 0",§4.3; Abstract
+R0365,1,A1; A2,modality,Qwen3.5-plus,A1.M1,A2.M1,↓,not tested,"Fig. 7 (p. 30), Fig. 3 (p. 9)"
+R0365,2,A1; A2,modality,GPT-5.4-mini,A1.M2,A2.M2,↑,not tested,"Fig. 7 (p. 30), Fig. 3 (p. 9), App. F.3 text p. 27"
+R0368,1,A3; A4,few-shot,Gemini-3-Pro,A3.M1,A4.M1,↑,not tested,"Table 7, App. D.2"
+R0368,2,A3; A4,few-shot,GPT-5.2,A3.M2,A4.M2,↑,not tested,"Table 7, App. D.2"
+R0368,3,A3; A4,few-shot,Qwen3-VL-32B,A3.M24,A4.M3,↑,not tested,"Table 7, App. D.2"
+R0368,4,A3; A4,few-shot,InternVL3.5-38B,A3.M26,A4.M4,↑,not tested,"Table 7, App. D.2"
+R0368,5,A3; A4,few-shot,LLaVA-Critic-R1,A3.M8,A4.M5,↓,not tested,"Table 7, App. D.2"
+R0368,6,A3; A5,other:majority-voting,Gemini-3-Pro,A5.M1,A5.M1,↓,not tested,Fig. 10a
+R0368,7,A3; A5,other:majority-voting,GPT-5.2,A5.M2,A5.M2,↑,not tested,Fig. 10a
+R0368,8,A3; A5,other:majority-voting,Seed1.6-VL,A5.M3,A5.M3,↓,not tested,Fig. 10a
+R0368,9,A3; A5,other:majority-voting,Qwen2.5-VL-72B,A5.M4,A5.M4,↑,not tested,Fig. 10a
+R0368,10,A3; A5,other:majority-voting,Qwen3-VL-32B,A5.M5,A5.M5,↓,not tested,Fig. 10a
+R0368,11,A3; A5,other:majority-voting,InternVL3.5-38B,A5.M6,A5.M6,=,not tested,Fig. 10a
+R0368,12,A2; A6,other:majority-voting,Gemini-3-Pro,A6.M1,A6.M1,↑,not tested,Fig. 10b
+R0368,13,A2; A6,other:majority-voting,GPT-5.2,A6.M2,A6.M2,↑,not tested,Fig. 10b
+R0368,14,A2; A6,other:majority-voting,Seed1.6-VL,A6.M3,A6.M3,↓,not tested,Fig. 10b
+R0368,15,A2; A6,other:majority-voting,Qwen2.5-VL-72B,A6.M4,A6.M4,↑,not tested,Fig. 10b
+R0368,16,A2; A6,other:majority-voting,Qwen3-VL-32B,A6.M5,A6.M5,↓,not tested,Fig. 10b
+R0368,17,A2; A6,other:majority-voting,InternVL3.5-38B,A6.M6,A6.M6,=,not tested,Fig. 10b
+R0368,18,A1,other:thinking-mode,MiMo-VL-7B-SFT,A1.M5,A1.M16,↓,not tested,"Table 1, p. 6"
+R0368,19,A1,other:thinking-mode,MiMo-VL-7B-RL,A1.M7,A1.M17,↑,not tested,"Table 1, p. 6"
+R0368,20,A2,other:thinking-mode,MiMo-VL-7B-SFT,A2.M5,A2.M16,↓,not tested,"Table 2, p. 7"
+R0368,21,A2,other:thinking-mode,MiMo-VL-7B-RL,A2.M7,A2.M17,↓,not tested,"Table 2, p. 7"
+R0368,22,A3,other:thinking-mode,MiMo-VL-7B-SFT,A3.M5,A3.M16,↑,not tested,"Table 2, p. 7"
+R0368,23,A3,other:thinking-mode,MiMo-VL-7B-RL,A3.M7,A3.M17,↑,not tested,"Table 2, p. 7"
+R0374,1,A2; A3,other:rubric-itemization,Qwen3.6-Flash,A3.M1,A2.M1,↑,not tested,"Table 5, p.6; RQ2 Results p.6"
+S0103,1,A1.M1; A1.M2,model,n/a (factor = model: GPT-5 -> Qwen2.5-VL-72B),A1.M1,A1.M2,↓,not tested,Fig. 6; App. A.4 Results analysis; Fig. 11
+S0103,2,A2; A3,other:qa-rewrite,GPT-5,A2.M1,A3.M1,↑,not tested,"Sec 3.2, p. 6"
+S0122,1,A1; A2,modality,GPT-4o,A1.M1,A2.M1,↑,not tested,abstract
+S0122,2,A1; A2,modality,Gemini 2.0,A1.M2,A2.M2,↑,not tested,abstract
+S0122,3,A1; A2,modality,DeepSeek-V3,A1.M3,A2.M3,↑,not tested,abstract
