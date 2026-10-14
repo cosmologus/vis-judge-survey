@@ -7,6 +7,14 @@
 <meta name="description" content="A coded survey corpus of 70 papers in
 which a (multimodal) LLM judges a data visualization.">
 <link rel="stylesheet" href="style.css">
+<script>
+  // light by default; dark only if this viewer chose it (before paint)
+  try {
+    if (localStorage.getItem("theme") === "dark") {
+      document.documentElement.dataset.theme = "dark";
+    }
+  } catch (e) { /* storage blocked: stay light */ }
+</script>
 <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
 </head>
 <body>
@@ -17,6 +25,7 @@ which a (multimodal) LLM judges a data visualization.">
       <a href="#/findings" data-tab="findings">Findings</a>
       <a href="#/corpus" data-tab="corpus">Corpus</a>
     </nav>
+    <button type="button" class="theme" id="theme"></button>
   </div>
 </header>
 <main id="app"><p class="muted" style="padding:24px 0">Loading the

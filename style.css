@@ -1,6 +1,7 @@
 /* Exploration site: tokens follow the dataviz reference palette.
-   Light and dark are selected separately; status trio validated in both
-   modes (blue / aqua / orange). */
+   Light is the default; dark comes only from the header switch
+   (data-theme="dark"). Status trio validated in both modes
+   (blue / aqua / orange). */
 :root {
   color-scheme: light;
   --page: #f9f9f7; --surface: #fcfcfb; --surface-2: #f0efec;
@@ -10,18 +11,6 @@
   --s-explicit: #2a78d6; --s-inferred: #1baf7a; --s-missing: #eb6834;
   --seq-lo: #cde2fb; --seq-hi: #0d366b;
   --shadow: 0 6px 24px rgba(0, 0, 0, .12);
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    color-scheme: dark;
-    --page: #0d0d0d; --surface: #1a1a19; --surface-2: #262624;
-    --ink: #f0efec; --ink-2: #c3c2b7; --muted: #9a988f;
-    --grid: #2c2c2a; --axis: #383835; --border: rgba(255, 255, 255, .10);
-    --accent: #3987e5; --accent-soft: #184f95; --bar: #3987e5;
-    --s-explicit: #3987e5; --s-inferred: #199e70; --s-missing: #d95926;
-    --seq-lo: #184f95; --seq-hi: #b7d3f6;
-    --shadow: 0 6px 24px rgba(0, 0, 0, .5);
-  }
 }
 :root[data-theme="dark"] {
   color-scheme: dark;
@@ -66,6 +55,12 @@ code { font-size: .92em; }
 }
 .tabs a:hover { background: var(--surface-2); }
 .tabs a[aria-current="page"] { background: var(--ink); color: var(--page); }
+.theme { display: inline-flex; align-items: center; gap: 6px;
+  border: 1px solid var(--axis); background: var(--surface);
+  border-radius: 999px; padding: 5px 11px; cursor: pointer;
+  color: var(--ink-2); font-size: 13px; }
+.theme:hover { background: var(--surface-2); color: var(--ink); }
+.theme svg { width: 15px; height: 15px; }
 main { max-width: 1200px; margin: 0 auto; padding: 0 16px 48px; }
 .narrow { max-width: 900px; margin: 0 auto; }
 footer {
