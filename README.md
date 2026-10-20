@@ -28,6 +28,20 @@ Multi-valued cells are separated by `; `. `codebook.md` (frozen v1.7)
 defines every field and value. Corpus window 2022-01 to 2026-09, search
 snapshot 2026-10-04.
 
+## Search and prompts
+
+| File | Content |
+|---|---|
+| `search/openalex.filter.txt` | OpenAlex `filter` of the frozen query (run with `corpus=all`) |
+| `search/arxiv.search_query.txt` | arXiv API `search_query` of the frozen query |
+| `search/meta.json` | the three term blocks, the arXiv drops and the title post-filter |
+| `prompts/screening-title-abstract.md` | fixed prompt of title and abstract screening |
+| `prompts/screening-full-text.md` | fixed prompt of full text screening |
+| `prompts/coding-pass1.md`, `prompts/coding-pass2.md` | fixed prompts of the two coding passes |
+
+Paths inside the prompts refer to the private working repository; the
+full texts of the papers are not published.
+
 Quoted prompts (`cue_quote`) and verdicts (`verdict_quote`) are short
 excerpts from the papers, reproduced for analysis with their source and
 location; copyright in them stays with their authors.
@@ -44,7 +58,8 @@ python3 -m http.server 8000
 
 ## License
 
-- Data (`data/`) and codebook: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+- Data (`data/`), codebook, query (`search/`) and prompts (`prompts/`):
+  [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
   The quoted excerpts in `cue_quote` and `verdict_quote` are not covered;
   they belong to the authors of the papers.
 - Site code (`index.html`, `app.js`, `style.css`): MIT, see `LICENSE`.
